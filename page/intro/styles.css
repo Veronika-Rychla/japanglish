@@ -1,0 +1,90 @@
+*
+{
+     box-sizing: border-box;
+     padding: 0%;
+     margin: 0%;
+}
+/*intro*/
+body {
+     
+    height: 100vh;
+     background-image: url(img/Main.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.nadpis {
+     font-family: 'Bangers', cursive;
+     color: aliceblue;
+     text-shadow: 1px 1px 2px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+     font-size: 96px;
+}
+.trip {
+     font-family: 'VT323', monospace;
+     color: aliceblue;
+     text-align: right;
+     font-size: 36px;
+     text-shadow: 1px 1px 2px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+     
+}
+
+.media {
+     height: 30px;
+}
+/*phone*/
+@media (min-width: 360px) and (max-width: 600px) {
+     .nadpis {
+          font-size: 64px;
+     }
+     .trip {
+          font-size: 24px;
+     }
+
+     .media {
+          background-color: rgb(255, 55, 0)
+     }
+}
+/*tablet*/
+@media (min-width: 601px) and (max-width: 1024px) {
+     .nadpis {
+          font-size: 64px;
+     }
+     .trip {
+          font-size: 24px;
+     }
+
+     .media {
+          background-color: rgb(238, 255, 0)
+     }
+ }
+
+/*monitor*/
+@media (min-width: 1024px) and (max-width: 1920px) {
+     .media {
+          background-color: rgb(13, 255, 0)
+     }
+ }
+ 
+/*super monitor*/
+@media (min-width: 1920px)  {
+     .media {
+          background-color: rgb(0, 38, 255)
+     }
+      .nadpis {
+               font-size: 200px;
+               text-shadow: 10px 10px 20px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+          }
+          .trip {
+               font-family: 'VT323', monospace;
+               color: aliceblue;
+               text-align: right;
+               font-size: 96px;
+               text-shadow: 10px 10px 20px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+               
+          }
+}
