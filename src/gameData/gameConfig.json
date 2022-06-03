@@ -1,0 +1,40 @@
+{
+  "characters": [
+    {
+      "name": "Hanako",
+      "gender": "female",
+      "nationality": "Japanese"
+    },
+    {
+      "name": "Charlie",
+      "gender": "male",
+      "nationality": "American"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Train station",
+      "background": "trainstation.jpg",
+      "music": "trainstation.mp3",
+      "conversation": [
+        {
+          "caption": "Charlie arrives in Tokyo, dead tired and jet-lagged. He can't read any signs and people are reluctant to talk to him so he starts questioning his resolve for this exchange trip. His teacher claimed that the Japanese study English as a compulsory subject but Charlie suspects he was deceived.",
+          "type": "dialogue",
+          "nextStep": "welcomeQuiz"
+        }
+      ]
+    },
+    {
+      "name": "Home",
+      "background": "home.jpg",
+      "music": "home.mp3",
+      "conversation": [
+        {
+          "caption": "welcomeText",
+          "type": "dialogue",
+          "nextStep": "welcomeQuiz"
+        }
+      ]
+    }
+  ]
+}
