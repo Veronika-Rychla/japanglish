@@ -27,7 +27,7 @@ body {
      margin: 0px 10px 0px 10px;
 }
 
-.nadpis {
+.title {
      font-family: 'Bangers', cursive;
      color: aliceblue;
      text-shadow: 1px 1px 2px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
@@ -176,7 +176,7 @@ text-shadow: 1px 1px 2px #000000 ;
 }
 /*phone*/
 @media (min-width: 360px) and (max-width: 600px) {
-     .nadpis {
+     .title {
           font-size: 64px;
      }
      .trip {
@@ -188,8 +188,8 @@ text-shadow: 1px 1px 2px #000000 ;
      }
 }
 /*tablet*/
-@media (min-width: 601px) and (max-width: 1024px) {
-     .nadpis {
+@media (max-width: 1024px) {
+     .title {
           font-size: 64px;
      }
      .trip {
@@ -213,9 +213,8 @@ text-shadow: 1px 1px 2px #000000 ;
           justify-content: space-between;
           gap: 2em;
      }
-     .nadpis {
+     .title {
           font-family: 'Bangers', cursive;
-     ;
           text-shadow: 5px 5px 8px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
           font-size: 64px;
           margin-bottom: 10px;
@@ -244,7 +243,7 @@ text-shadow: 1px 1px 2px #000000 ;
           justify-content: space-between;
           gap: 5em;
      }
-     .nadpis {
+     .title {
           font-family: 'Bangers', cursive;
           color: aliceblue;
           text-shadow: 5px 5px 8px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;

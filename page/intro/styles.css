@@ -18,7 +18,7 @@ body {
      align-items: center;
 }
 
-.nadpis {
+.title {
      font-family: 'Bangers', cursive;
      color: aliceblue;
      text-shadow: 1px 1px 2px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
@@ -37,8 +37,8 @@ body {
      height: 30px;
 }
 /*phone*/
-@media (min-width: 360px) and (max-width: 600px) {
-     .nadpis {
+@media (max-width: 600px) {
+     .title {
           font-size: 64px;
      }
      .trip {
@@ -51,7 +51,7 @@ body {
 }
 /*tablet*/
 @media (min-width: 601px) and (max-width: 1024px) {
-     .nadpis {
+     .title {
           font-size: 64px;
      }
      .trip {
@@ -75,7 +75,7 @@ body {
      .media {
           background-color: rgb(0, 38, 255)
      }
-      .nadpis {
+      .title {
                font-size: 200px;
                text-shadow: 10px 10px 20px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
           }
