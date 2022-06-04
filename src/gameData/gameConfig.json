@@ -108,6 +108,17 @@
           "character": "Charlie",
           "mood": "charlie_surprised.png",
           "nextStep": "trainStation15"
+        },
+        {
+          "trainStation15": "Takushii タクシー",
+          "type": "quiz",
+          "options": {
+            "option01": "an underground train",
+            "option02": "a tram",
+            "option03": "a taxi",
+            "option04": "She wants to see if I did my taxes right?"
+          },
+          "nextStep": "trainStation16"
         }
       ]
     },
