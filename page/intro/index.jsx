@@ -104,6 +104,7 @@ export const Intro = () => {
             <div className="title">
               <h1>Heroes</h1>
             </div>
+            <div class="char">
             <div className="heroes--char">
               <div className="char__img" id="charlie--img"></div>
               <div className="char__text">
@@ -125,6 +126,7 @@ export const Intro = () => {
                   explicabo corrupti maxime?
                 </p>
               </div>
+            </div>
             </div>
           </div>
           <a href="#" className="parpadea trip">
