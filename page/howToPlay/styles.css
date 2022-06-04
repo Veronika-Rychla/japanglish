@@ -39,7 +39,7 @@ p {
      color: #591978;
      text-shadow: #000000;
      font-family: 'VT323', monospace;
-     font-size: 24px;
+     font-size: 20px;
       text-shadow: 1px 1px 2px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
 
 }
@@ -127,6 +127,9 @@ text-shadow: 1px 1px 2px #000000 ;
 	background-position: center;
 }
 
+#title--intro {
+     margin:0%;
+}
 .content {
 	
 	padding-top: 50px;
@@ -190,6 +193,9 @@ text-shadow: 1px 1px 2px #000000 ;
 @media (max-width: 1024px) {
      .title {
           font-size: 64px;
+          margin-top: 150px;
+          text-shadow: 5px 5px 8px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+
      }
      .trip {
           font-size: 24px;
@@ -198,6 +204,7 @@ text-shadow: 1px 1px 2px #000000 ;
      .media {
           background-color: rgb(238, 255, 0)
      }
+
  }
 
 /*monitor*/
@@ -216,7 +223,7 @@ text-shadow: 1px 1px 2px #000000 ;
           font-family: 'Bangers', cursive;
           text-shadow: 5px 5px 8px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
           font-size: 64px;
-          margin-bottom: 10px;
+          margin-top: 150px;
      }
      
      p {

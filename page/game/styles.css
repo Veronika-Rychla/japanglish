@@ -232,7 +232,7 @@ p {
     height: fit-content;
 }
 /*phone*/
-@media (min-width: 360px) and (max-width: 600px) {
+@media (max-width: 600px) {
      .media {
           background-color: rgb(255, 55, 0)
      }
@@ -246,10 +246,11 @@ p {
      .media {
           background-color: rgb(238, 255, 0)
      }
- }
+     
+     }
 
 /*monitor*/
-@media (min-width: 1024px) and (max-width: 1920px) {
+@media (min-width: 1025px) and (max-width: 1920px) {
      .media {
           background-color: rgb(13, 255, 0)
      }

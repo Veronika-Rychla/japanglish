@@ -57,8 +57,8 @@ p {
      flex-direction: column;
 }
 .char__img {
-     width: 100px;
-     height: 150px;
+     width:50px;
+     height: 100px;
      background-repeat: no-repeat;
      background-position: left;
      background-size: contain;

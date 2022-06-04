@@ -22,8 +22,9 @@ body {
 .title {
   font-family: 'Bangers', cursive;
   color: aliceblue;
-  text-shadow: 1px 1px 2px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
   font-size: 96px;
+  text-shadow: 5px 5px 8px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+       
 }
 .trip {
   font-family: 'VT323', monospace;
@@ -52,6 +53,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0% 3% 0% 3%;
 }
 
 #characters {
@@ -154,7 +156,7 @@ a {
      height: 80vh;
 }
 .char__text {
-     padding: 0% 15% 0% 15%;
+     padding: 0% 5% 0% 5%;
 }
 
 /*phone*/
