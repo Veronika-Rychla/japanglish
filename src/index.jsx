@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
 import './style.css';
 import { Intro } from '../page/intro';
-import { Locations } from './Locations';
+import { Locations } from '../page/Locations';
 
 const App = () => {
   return (
