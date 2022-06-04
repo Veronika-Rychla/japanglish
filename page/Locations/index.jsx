@@ -12,10 +12,10 @@ export const Locations = () => {
     return jsonData.locations[day].name;
   };
 
-  // const getBackgroundImage = () => {
-  //  const changeBackground = document.querySelector('body');
-  //  changeBackground.style.backgroundImage = `url(../game/img/${jsonData.locations[day].background})`;
-  // };
+  const getBackgroundImage = () => {
+    const changeBackground = document.querySelector('body');
+    changeBackground.style.backgroundImage = `url(./background/${jsonData.locations[day].background})`;
+  };
 
   const getDialogue = () => {
     return jsonData.locations[day].conversation[dialogue].text;
@@ -26,7 +26,7 @@ export const Locations = () => {
   };
 
   const getMood = () => {
-    return jsonData.locations[day].conversation[dialogue].mood;
+    return `./chibi/${jsonData.locations[day].conversation[dialogue].mood}`;
   };
 
   const getType = () => {
@@ -53,7 +53,7 @@ export const Locations = () => {
 
   // End functions
 
-  // getBackgroundImage();
+  getBackgroundImage();
   return (
     <>
       <section className="locationBody">
@@ -76,6 +76,8 @@ export const Locations = () => {
           <h3>{getLocationName()}</h3>
         </div>
         <div className="board">
+          {/* <img src={getMood()} /> */}
+          {getCharacter()}
           <div className="board--charlie"></div>
           <div className="board--hanako"></div>
         </div>
