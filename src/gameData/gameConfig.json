@@ -106,12 +106,12 @@
           "type": "quiz",
           "character": "",
           "mood": "",
-          "options": {
-            "option01": "an underground train",
-            "option02": "a tram",
-            "option03": "a taxi",
-            "option04": "She wants to see if I did my taxes right?"
-          }
+          "options": [
+            { "option": "an underground train" },
+            { "option": "a tram" },
+            { "option": "a taxi" },
+            { "option": "She wants to see if I did my taxes right?" }
+          ]
         }
       ]
     },
