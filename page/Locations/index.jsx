@@ -14,7 +14,7 @@ const getLocationName = () => {
 // };
 
 export const Locations = () => {
-  getBackgroundImage();
+ // getBackgroundImage();
   return (
     <>
       <section className="locationBody">
@@ -34,9 +34,12 @@ export const Locations = () => {
         </div>
         <div class="board">
           <div class="board--charlie"></div>
-          <div class="board--pop"></div>
           <div class="board--hanako"></div>
         </div>
+        <div class="name">
+      <div class="name--charlie name--type "><p>Charlie</p></div>
+      <div class="name--hanako name--type"><p>Hanako</p></div>
+    </div>
         <div class="dialog">
           <div class="dialog--text">
             <p>

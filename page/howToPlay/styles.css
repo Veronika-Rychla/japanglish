@@ -221,7 +221,7 @@ text-shadow: 1px 1px 2px #000000 ;
      
      p {
           
-          font-family: 'VT323', monospace;
+       
           font-size: 24px;
            text-shadow: 5px 5px 8px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
            font-weight: bold;
@@ -243,7 +243,7 @@ text-shadow: 1px 1px 2px #000000 ;
           gap: 5em;
      }
      .title {
-          font-family: 'Bangers', cursive;
+         
           color: aliceblue;
           text-shadow: 5px 5px 8px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
           font-size: 96px;

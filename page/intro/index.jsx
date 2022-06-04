@@ -33,11 +33,11 @@ export const Intro = () => {
     <>
       <div className="page_container" onClick={loadNextPage}>
         <section id="intro">
-          <div className="title">JAPANGLISH</div>
+          <div className="title" id="title--intro">JAPANGLISH</div>
           <div className="trip">Trip to Tokyo</div>
           <a href="#" className="parpadea trip">
             {' '}
-            Click anywhere{' '}
+            - Click anywhere - {' '}
           </a>
         </section>
         <section id="howToPlay">
