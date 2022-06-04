@@ -15,7 +15,10 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+.intro {
+  display: flex;
+  flex-direction: column;
+}
 .title {
   font-family: 'Bangers', cursive;
   color: aliceblue;
