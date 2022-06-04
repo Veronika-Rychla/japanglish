@@ -52,7 +52,10 @@ p {
      align-items: center;
      justify-content: center;
 }
-
+.char {
+     display: flex;
+     flex-direction: column;
+}
 .char__img {
      width: 100px;
      height: 150px;
@@ -115,10 +118,14 @@ p {
 @media (min-width: 1024px) and (max-width: 1920px) {
      .heroes {
           display: flex;
-          flex-direction: row;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          align-content: center;
      }.container {
           height: 150px;
           align-items: flex-end; 
+          justify-content: center;
      }
      .avatar {
           width: 100px;
@@ -132,7 +139,11 @@ p {
      .media {
           background-color: rgb(13, 255, 0)
 }
-     
+
+.char {
+     display: flex;
+     flex-direction: row;
+}
      }
  
  
@@ -147,6 +158,10 @@ p {
      }.container {
           height: 150px;
           align-items: flex-end; 
+     }
+     .char {
+          display: flex;
+          flex-direction: row;
      }
      .avatar {
           width: 100px;
