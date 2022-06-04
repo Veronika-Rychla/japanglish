@@ -1,90 +1,177 @@
-*
-{
-     box-sizing: border-box;
-     padding: 0%;
-     margin: 0%;
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
 }
 /*intro*/
 body {
-     
-    height: 100vh;
-     background-image: url(img/japanglish.jpg);
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size: cover;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
+  height: 100vh;
+  background-image: url(img/japanglish.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
-     font-family: 'Bangers', cursive;
-     color: aliceblue;
-     text-shadow: 1px 1px 2px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
-     font-size: 96px;
+  font-family: 'Bangers', cursive;
+  color: aliceblue;
+  text-shadow: 1px 1px 2px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+  font-size: 96px;
 }
 .trip {
-     font-family: 'VT323', monospace;
-     color: aliceblue;
-     text-align: right;
-     font-size: 36px;
-     text-shadow: 1px 1px 2px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
-     
+  font-family: 'VT323', monospace;
+  color: aliceblue;
+  text-align: right;
+  font-size: 36px;
+  text-shadow: 1px 1px 2px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
 }
 
 .media {
-     height: 30px;
+  height: 30px;
 }
+
+.page_container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#howToPlay {
+  display: none;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#characters {
+  display: none;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  font-family: 'Press Start 2P';
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+  cursor: pointer;
+  letter-spacing: 4px;
+  color: #6b3b6e;
+  text-shadow: 0 0 5px #ec41bf, 0 0 10px #8606b6, 0 0 15px #fff,
+    0 0 20px #921982, 0 0 25px #770067;
+  -webkit-text-fill-color: #f4ecff;
+  -webkit-text-stroke-color: #c546f7;
+  -webkit-text-stroke-width: 0;
+  text-decoration: none;
+}
+
+.parpadea {
+  animation-name: parpadeo;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name: parpadeo;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /*phone*/
 @media (max-width: 600px) {
-     .title {
-          font-size: 64px;
-     }
-     .trip {
-          font-size: 24px;
-     }
+  .title {
+    font-size: 64px;
+  }
+  .trip {
+    font-size: 24px;
+  }
 
-     .media {
-          background-color: rgb(255, 55, 0)
-     }
+  .media {
+    background-color: rgb(255, 55, 0);
+  }
 }
 /*tablet*/
 @media (min-width: 601px) and (max-width: 1024px) {
-     .title {
-          font-size: 64px;
-     }
-     .trip {
-          font-size: 24px;
-     }
+  .title {
+    font-size: 64px;
+  }
+  .trip {
+    font-size: 24px;
+  }
 
-     .media {
-          background-color: rgb(238, 255, 0)
-     }
- }
+  .media {
+    background-color: rgb(238, 255, 0);
+  }
+}
 
 /*monitor*/
 @media (min-width: 1024px) and (max-width: 1920px) {
-     .media {
-          background-color: rgb(13, 255, 0)
-     }
- }
- 
+  .media {
+    background-color: rgb(13, 255, 0);
+  }
+}
+
 /*super monitor*/
-@media (min-width: 1920px)  {
-     .media {
-          background-color: rgb(0, 38, 255)
-     }
-      .title {
-               font-size: 200px;
-               text-shadow: 10px 10px 20px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
-          }
-          .trip {
-               font-family: 'VT323', monospace;
-               color: aliceblue;
-               text-align: right;
-               font-size: 96px;
-               text-shadow: 10px 10px 20px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
-               
-          }
+@media (min-width: 1920px) {
+  .media {
+    background-color: rgb(0, 38, 255);
+  }
+  .title {
+    font-size: 200px;
+    text-shadow: 10px 10px 20px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+  }
+  .trip {
+    font-family: 'VT323', monospace;
+    color: aliceblue;
+    text-align: right;
+    font-size: 96px;
+    text-shadow: 10px 10px 20px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+  }
 }
