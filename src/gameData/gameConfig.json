@@ -18,107 +18,100 @@
       "music": "music/trainstation.mp3",
       "conversation": [
         {
-          "trainstation01": "Charlie arrives in Tokyo, dead tired and jet-lagged. He can't read any signs and people are reluctant to talk to him so he starts questioning his resolve for this exchange trip. His teacher claimed that the Japanese study English as a compulsory subject but Charlie suspects he was deceived.",
+          "text": "Charlie arrives in Tokyo, dead tired and jet-lagged. He can't read any signs and people are reluctant to talk to him so he starts questioning his resolve for this exchange trip. His teacher claimed that the Japanese study English as a compulsory subject but Charlie suspects he was deceived.",
           "type": "description",
-          "nextStep": "trainStation02"
+          "character": "",
+          "mood": ""
         },
         {
-          "trainStation02": "I have a feeling that the lady who sold me the train ticket did it out of mercy and to get rid of me because she didn't even take my money.",
+          "text": "I have a feeling that the lady who sold me the train ticket did it out of mercy and to get rid of me because she didn't even take my money.",
           "type": "dialogue",
           "character": "Charlie",
-          "mood": "charlie_sad.png",
-          "nextStep": "trainStation03"
+          "mood": "charlie_sad.png"
         },
         {
-          "trainStation03": "Charlie looks around, nervous. People stare at him because he's the only foreigner here. He isn't in a tourist destination after all.",
+          "text": "Charlie looks around, nervous. People stare at him because he's the only foreigner here. He isn't in a tourist destination after all.",
           "type": "description",
-          "nextStep": "trainStation04"
+          "character": "Charlie",
+          "mood": "charlie_neutral.png"
         },
         {
-          "trainStation04": "Am I even in the right town? Isn't someone supposed to pick me up?",
+          "text": "Am I even in the right town? Isn't someone supposed to pick me up?",
           "type": "dialogue",
           "character": "Charlie",
-          "mood": "charlie_surprised.png",
-          "nextStep": "trainStation05"
+          "mood": "charlie_surprised.png"
         },
         {
-          "trainStation05": "He tries talking to the people nearby and some of them answer something that might be English but he can't understand a word.",
+          "text": "He tries talking to the people nearby and some of them answer something that might be English but he can't understand a word.",
           "type": "description",
-          "nextStep": "trainStation06"
+          "character": "Charlie",
+          "mood": "charlie_surprised.png"
         },
         {
-          "trainStation06": "Damn, I should have taken that Japanese language preparatory course when they were offering it. All I know are a few generic phrases from anime I've watched.",
+          "text": "Damn, I should have taken that Japanese language preparatory course when they were offering it. All I know are a few generic phrases from anime I've watched.",
           "type": "dialogue",
           "character": "Charlie",
-          "mood": "charlie_sad.png",
-          "nextStep": "trainStation06"
+          "mood": "charlie_sad.png"
         },
         {
-          "trainStation07": "Suddenly, Charlie gets startled by a cheerful female voice.",
+          "text": "Suddenly, Charlie gets startled by a cheerful female voice.",
           "type": "description",
           "character": "Charlie",
-          "mood": "charlie_excited.png",
-          "nextStep": "trainStation08"
+          "mood": "charlie_excited.png"
         },
         {
-          "trainStation08": "Yahooo!",
+          "text": "Yahooo!",
           "type": "dialogue",
           "character": "Hanako",
-          "mood": "hanako_excited.png",
-          "nextStep": "trainStation09"
+          "mood": "hanako_excited.png"
         },
         {
-          "trainStation09": "Is yahoo a common greeting here? I thought it's a search engine.",
+          "text": "Is yahoo a common greeting here? I thought it's a search engine.",
           "type": "monologue",
           "character": "Charlie",
-          "mood": "charlie_surprised.png",
-          "nextStep": "trainStation10"
+          "mood": "charlie_surprised.png"
         },
         {
-          "trainStation10": "Konnichiwa, are you the person who is supposed to pick me up?",
+          "text": "Konnichiwa, are you the person who is supposed to pick me up?",
           "type": "dialogue",
           "character": "Charlie",
-          "mood": "charlie_neutral.png",
-          "nextStep": "trainStation11"
+          "mood": "charlie_neutral.png"
         },
         {
-          "trainStation11": "Yep, Hanako desu. Naisu to meet yuu.",
+          "text": "Yep, Hanako desu. Naisu to meet yuu.",
           "type": "dialogue",
           "character": "Hanako",
-          "mood": "hanako_happy.png",
-          "nextStep": "trainStation12"
+          "mood": "hanako_happy.png"
         },
         {
-          "trainStation12": "At least she speaks English a bit. But what's with those clothes? Is she into that kind of fashion?",
+          "text": "At least she speaks English a bit. But what's with those clothes? Is she into that kind of fashion?",
           "type": "monologue",
           "character": "Charlie",
-          "mood": "charlie_neutral.png",
-          "nextStep": "trainStation13"
+          "mood": "charlie_neutral.png"
         },
         {
-          "trainStation13": "My house is quite far from the station, let's take a takushii.",
+          "text": "My house is quite far from the station, let's take a takushii.",
           "type": "dialogue",
           "character": "Hanako",
-          "mood": "hanako_neutral.png",
-          "nextStep": "trainStation14"
+          "mood": "hanako_neutral.png"
         },
         {
-          "trainStation14": "Take what?!",
+          "text": "Take what?!",
           "type": "monologue",
           "character": "Charlie",
-          "mood": "charlie_surprised.png",
-          "nextStep": "trainStation15"
+          "mood": "charlie_surprised.png"
         },
         {
-          "trainStation15": "Takushii タクシー",
+          "text": "Takushii タクシー",
           "type": "quiz",
+          "character": "",
+          "mood": "",
           "options": {
             "option01": "an underground train",
             "option02": "a tram",
             "option03": "a taxi",
             "option04": "She wants to see if I did my taxes right?"
-          },
-          "nextStep": "trainStation16"
+          }
         }
       ]
     },
@@ -128,9 +121,10 @@
       "music": "home.mp3",
       "conversation": [
         {
-          "caption": "welcomeText",
+          "text": "welcomeText",
           "type": "dialogue",
-          "nextStep": "more dialogue options"
+          "character": "Charlie",
+          "mood": "charlie_surprised.png"
         }
       ]
     }

@@ -1,55 +1,94 @@
-import React, { useEffect } from 'react';
+import React, { useState } from 'react';
 
 const jsonData = require('../../src/gameData/gameConfig.json');
 
-let day = 0;
-
-const getLocationName = () => {
-  return jsonData.locations[day].name;
-};
-
-// const getBackgroundImage = () => {
-//  const changeBackground = document.querySelector('body');
-//  changeBackground.style.backgroundImage = `url(../game/img/${jsonData.locations[day].background})`;
-// };
-
 export const Locations = () => {
-  getBackgroundImage();
+  const [day, setDay] = useState(0);
+  const [dialogue, setDialogue] = useState(0);
+
+  // Start functions
+
+  const getLocationName = () => {
+    return jsonData.locations[day].name;
+  };
+
+  // const getBackgroundImage = () => {
+  //  const changeBackground = document.querySelector('body');
+  //  changeBackground.style.backgroundImage = `url(../game/img/${jsonData.locations[day].background})`;
+  // };
+
+  const getDialogue = () => {
+    return jsonData.locations[day].conversation[dialogue].text;
+  };
+
+  const getCharacter = () => {
+    return jsonData.locations[day].conversation[dialogue].character;
+  };
+
+  const getMood = () => {
+    return jsonData.locations[day].conversation[dialogue].mood;
+  };
+
+  const getType = () => {
+    return jsonData.locations[day].conversation[dialogue].type;
+  };
+
+  const incrementDialogue = () => {
+    console.log(
+      `Conversation lenght is ${jsonData.locations[day].conversation.length}`,
+    );
+    console.log(`Dialogue lenght is ${dialogue}`);
+    if (jsonData.locations[day].conversation.length > dialogue + 1) {
+      setDialogue(dialogue + 1);
+    } else {
+      setDialogue(0);
+      console.log(`Location lenght is ${jsonData.locations.length} and ${day}`);
+      if (jsonData.locations.length > day + 1) {
+        setDay(day + 1);
+      }
+    }
+  };
+
+  console.log(dialogue);
+
+  // End functions
+
+  // getBackgroundImage();
   return (
     <>
       <section className="locationBody">
-        <div class="menu">
-          <div class="navigation__buttons">
-            <div class="buttons--reset">
-              <img class="icon__img" src="img/restart.svg" alt="reset icon" />
+        <div className="menu">
+          <div className="navigation__buttons">
+            <div className="buttons--reset">
+              <img
+                className="icon__img"
+                src="img/restart.svg"
+                alt="reset icon"
+              />
             </div>
-            <div class="buttons--end"></div>
+            <div className="buttons--end"></div>
           </div>
-          <div class="navigation__day">
-            <p>Day 1</p>
+          <div className="navigation__day">
+            <p>Day {day + 1}</p>
           </div>
         </div>
-        <div class="menu--location">
+        <div className="menu--location">
           <h3>{getLocationName()}</h3>
         </div>
-        <div class="board">
-          <div class="board--charlie"></div>
-          <div class="board--pop"></div>
-          <div class="board--hanako"></div>
+        <div className="board">
+          <div className="board--charlie"></div>
+          <div className="board--hanako"></div>
         </div>
-        <div class="dialog">
-          <div class="dialog--text">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              ullam facilis culpa modi quo laborum earum commodi dolores,
-              numquam ut blanditiis delectus perferendis explicabo nostrum quas
-              maxime, adipisci sapiente rerum.
-            </p>
+        <div className="dialog">
+          <div className="dialog--text">
+            <p>{getDialogue()}</p>
           </div>
-          <div class="dialog--heart"></div>
-          <div class="dialog--container">
-            <div class="container__content"></div>
-            <div class="container__avatar"></div>
+          <div className="dialog--heart"></div>
+          <div className="dialog--container">
+            <div className="container__content"></div>
+            <div className="container__avatar" onClick={incrementDialogue}>
+              Next
+            </div>
           </div>
         </div>
       </section>
