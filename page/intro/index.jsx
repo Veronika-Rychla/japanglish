@@ -86,7 +86,7 @@ export const Intro = () => {
               </div>
             </div>
           </div>
-          <a href="#" class="parpadea trip">
+          <a href="#" className="parpadea trip">
             Click anywhere
           </a>
         </section>
@@ -118,8 +118,8 @@ export const Intro = () => {
               </div>
             </div>
           </div>
-          <a href="#" class="parpadea trip">
-            Click anywhere
+          <a href="#" className="parpadea trip">
+            Click anywhere to start the game
           </a>
         </section>
       </div>
