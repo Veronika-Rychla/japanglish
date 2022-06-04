@@ -89,6 +89,7 @@ a {
   -webkit-animation-duration: 3s;
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
+  margin-top:25%;
 }
 
 @-moz-keyframes parpadeo {
@@ -125,6 +126,35 @@ a {
   100% {
     opacity: 1;
   }
+}
+.nav {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 1em;
+}
+.nav--field {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+.nav--sub {
+     text-align: center;
+}
+.nav--icon {
+     background-color: #3f0249;
+     padding: 5px;
+     border-radius: 25%;
+}
+
+/*heroes*/
+.heroes {
+     height: 80vh;
+}
+.char__text {
+     padding: 0% 15% 0% 15%;
 }
 
 /*phone*/
@@ -171,10 +201,14 @@ a {
     text-shadow: 10px 10px 20px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
   }
   .trip {
-    font-family: 'VT323', monospace;
+  
     color: aliceblue;
     text-align: right;
     font-size: 96px;
     text-shadow: 10px 10px 20px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
   }
+
+  .parpadea { 
+       font-size: 36px;
+}
 }

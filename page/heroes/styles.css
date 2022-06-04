@@ -42,7 +42,8 @@ p {
      display:flex;
      flex-direction: column;
      align-items: center;
-     justify-content: center;
+     justify-content: flex-end;
+     height: 100vh;
 }
 
 .heroes--char {
@@ -57,7 +58,7 @@ p {
      height: 150px;
      background-repeat: no-repeat;
      background-position: left;
-     background-size: cover;
+     background-size: contain;
      border-radius: 25px;
      padding: 5%;
      margin: 5%;
@@ -67,11 +68,11 @@ p {
 }
 
 #charlie--img {
-     background-image: url(img/happy.jpg);
+     background-image: url(../../src/img/chibi/Charlie_neutral.png);
 }
 
 #hanako--img {
-     background-image: url(img/neutral.jpg);
+     background-image: url(../../src/img/chibi/Hanako_neutral.png);
    
 }
 
