@@ -33,6 +33,10 @@ export const Locations = () => {
     return jsonData.locations[day].conversation[dialogue].type;
   };
 
+  const getTestQuestions = () => {
+    return jsonData.locations[day].conversation[dialogue].options;
+  };
+
   const incrementDialogue = () => {
     console.log(
       `Conversation lenght is ${jsonData.locations[day].conversation.length}`,
@@ -84,6 +88,7 @@ export const Locations = () => {
         <div className="dialog">
           <div className="dialog--text">
             <p>{getDialogue()}</p>
+            <p>{getTestQuestions()}</p>
           </div>
           <div className="dialog--heart"></div>
           <div className="dialog--container">

@@ -104,8 +104,8 @@
         {
           "text": "Takushii タクシー",
           "type": "quiz",
-          "character": "",
-          "mood": "",
+          "character": "Charlie",
+          "mood": "charlie_surprised.png",
           "options": [
             { "option": "an underground train" },
             { "option": "a tram" },
@@ -121,10 +121,46 @@
       "music": "home.mp3",
       "conversation": [
         {
-          "text": "welcomeText",
+          "text": "That was a weird ride. Hanako kept talking but I barely understood half of what she was saying. At least I could see the city.",
+          "type": "monologue",
+          "character": "Charlie",
+          "mood": "charlie_neutral.png"
+        },
+        {
+          "text": "Tadaima! Take off your shoes here, Charlie.",
           "type": "dialogue",
+          "character": "Hanako",
+          "mood": "hanako_happy.png"
+        },
+        {
+          "text": "Right, I almost forgot the Japanese hate when their guests don't change into slippers.",
+          "type": "monologue",
+          "character": "Charlie",
+          "mood": "charlie_neutral.png"
+        },
+        {
+          "text": "It's quite hot but don't worry, we have eakon.",
+          "type": "dialogue",
+          "character": "Hanako",
+          "mood": "hanako_neutral.png"
+        },
+        {
+          "text": "They have what?!",
+          "type": "quiz",
           "character": "Charlie",
           "mood": "charlie_surprised.png"
+        },
+        {
+          "text": "Eakon エアコン",
+          "type": "quiz",
+          "character": "Charlie",
+          "mood": "charlie_surprised.png",
+          "options": [
+            { "option": "cooler" },
+            { "option": "fridge" },
+            { "option": "ice-cream" },
+            { "option": "air conditioning" }
+          ]
         }
       ]
     }
