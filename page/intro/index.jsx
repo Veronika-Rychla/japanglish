@@ -33,18 +33,20 @@ export const Intro = () => {
     <>
       <div className="page_container" onClick={loadNextPage}>
         <section id="intro">
-          <div className="title" id="title--intro">JAPANGLISH</div>
+          <div className="title" id="title--intro">
+            JAPANGLISH
+          </div>
           <div className="trip">Trip to Tokyo</div>
           <a href="#" className="parpadea trip">
             {' '}
-            - Click anywhere - {' '}
+            - Click anywhere -{' '}
           </a>
         </section>
         <section id="howToPlay">
-          <div className="title">How to play</div>
+          <div className="title">Gameplay</div>
           <div className="nav">
             <div className="nav--field">
-              <p>Subcribe how to play</p>
+              <p>How to play</p>
             </div>
             <div className="nav--field">
               <div className="nav--img nav--flex" id="nav--button">
@@ -54,16 +56,13 @@ export const Intro = () => {
                 </div>
               </div>
               <div className="nav--sub">
-                <p>používej tlačítko pro pohyb</p>
+                <p>Click this button to move on</p>
               </div>
             </div>
             <div className="nav--field">
               <div className="nav--img nav--flex" id="nav--heart"></div>
               <div className="nav--sub">
-                <p>
-                  Měřák nálady - když přijdeš o všechnu dobrou náladu, následuje
-                  tragický konec!
-                </p>
+                <p>When your heart gets depleted, you die tragically!</p>
               </div>
             </div>
             <div className="nav--field">
@@ -73,7 +72,7 @@ export const Intro = () => {
                 </p>
               </div>
               <div className="nav--sub">
-                <p>Co to je za rosypaný čaj?! dotkni se ho</p>
+                <p>What are these mysterious symbols? Hover to find out!</p>
               </div>
             </div>
             <div className="nav--field">
@@ -102,31 +101,31 @@ export const Intro = () => {
         <section id="characters">
           <div className="heroes">
             <div className="title">
-              <h1>Heroes</h1>
+              <h1>Characters</h1>
             </div>
             <div class="char">
-            <div className="heroes--char">
-              <div className="char__img" id="charlie--img"></div>
-              <div className="char__text">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-                  optio sit culpa molestiae perferendis illum nostrum? Id,
-                  voluptate nemo. Adipisci eligendi vitae veritatis facilis eos
-                  rem dolorem dolores impedit sequi.
-                </p>
+              <div className="heroes--char">
+                <div className="char__img" id="charlie--img"></div>
+                <div className="char__text">
+                  <p>
+                    Charlie is a shy gamer boy from Canada who likes watching
+                    anime and reading manga but except for a few generic
+                    phrases, he doesn't know any Japanese. He comes to Japan for
+                    a student exchange trip.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className="heroes--char">
-              <div className="char__img" id="hanako--img"></div>
-              <div className="char__text">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-                  unde, aspernatur quo impedit deserunt repellat nemo officia
-                  perferendis dolorum dicta vitae in eos, aut hic eum, nihil
-                  explicabo corrupti maxime?
-                </p>
+              <div className="heroes--char">
+                <div className="char__img" id="hanako--img"></div>
+                <div className="char__text">
+                  <p>
+                    Hanako is a Japanese high school student who likes fashion.
+                    Unlike Charlie, she's extroverted and outspoken. Because she
+                    thinks her English is excellent, she volunteers to host an
+                    exchange student.
+                  </p>
+                </div>
               </div>
-            </div>
             </div>
           </div>
           <a href="#" className="parpadea trip">
