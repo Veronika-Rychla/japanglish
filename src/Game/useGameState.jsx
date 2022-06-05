@@ -29,16 +29,16 @@ const gameReducer = (state, action) => {
         conversationIndex: state.conversationIndex + 1,
       };
     case 'increaseHappiness':
-      if (currentHappiness === 100) return state;
+      if (state.currentHappiness === 100) return state;
       return {
         ...state,
-        currentHappiness: currentHappiness + 25,
+        currentHappiness: state.currentHappiness + 25,
       };
     case 'decreaseHappiness':
-      if (currentHappiness === 0) return state;
+      if (state.currentHappiness === 0) return state;
       return {
         ...state,
-        currentHappiness: currentHappiness - 25,
+        currentHappiness: state.currentHappiness - 25,
       };
     default:
       console.error('Invalid action ', { action, state });

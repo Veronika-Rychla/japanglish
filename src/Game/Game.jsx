@@ -37,6 +37,7 @@ export const Game = () => {
           text={currentConversation.text}
           type={currentConversation.type}
           options={currentConversation.options}
+          dispatch={dispatch}
         />
       </div>
       <div>

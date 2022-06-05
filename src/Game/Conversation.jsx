@@ -3,8 +3,17 @@ import React from 'react';
 import './Conversation.css';
 
 export const Conversation = (props) => {
-  const { text, type, options } = props;
+  const { text, type, options, dispatch } = props;
   const isQuiz = type === 'quiz';
+
+  const handleAnswerClick = (isCorrect) => {
+    if (isCorrect) {
+      dispatch({ type: 'increaseHappiness' });
+      dispatch({ type: 'moveToNextConversation' });
+    } else {
+      dispatch({ type: 'decreaseHappiness' });
+    }
+  };
 
   return (
     <div className="Conversation">
@@ -12,7 +21,11 @@ export const Conversation = (props) => {
       {isQuiz && (
         <ul className="Conversation__quiz">
           {options.map((o) => (
-            <li key={o.option} className="Conversation__quiz-option">
+            <li
+              key={o.option}
+              className="Conversation__quiz-option"
+              onClick={() => handleAnswerClick(o.correct)}
+            >
               {o.option}
             </li>
           ))}

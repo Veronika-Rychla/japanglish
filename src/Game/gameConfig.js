@@ -104,12 +104,10 @@ export const gameConfig = {
         {
           text: 'Takushii タクシー',
           type: 'quiz',
-          character: 'Charlie',
-          mood: 'charlie_surprised.png',
           options: [
             { option: 'an underground train' },
             { option: 'a tram' },
-            { option: 'a taxi' },
+            { option: 'a taxi', correct: true },
             { option: 'She wants to see if I did my taxes right?' },
           ],
           nextLocation: 'Home',
