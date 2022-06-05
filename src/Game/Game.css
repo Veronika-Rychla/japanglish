@@ -16,7 +16,7 @@
 }
 
 .Game__character {
-  min-height: 250px;
+  min-height: 80px;
  display: flex;
  flex-direction: column;
  justify-content: center;

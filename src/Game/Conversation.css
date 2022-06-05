@@ -8,6 +8,7 @@
      max-height: 60%;
      overflow: auto;
      display: flex;
+    
 
 }
 
@@ -62,3 +63,17 @@
 	background-color: #591978;
 	background-position: center;
 }
+
+li {
+     color: #591978;
+     font-family: 'VT323', monospace;
+     font-size: 20px;
+     text-shadow: 8px 8px 16px #f6f6f6, 0 0 1em #792f79, 0 0 0.2em #f9f3f95e;
+     text-transform: uppercase;
+}
+
+ul {
+     list-style-type: square;
+     list-style-image: url(faviconb.ico);
+     list-style-position: inside;
+   }
