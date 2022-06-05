@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+
+
 const jsonData = require('../../src/gameData/gameConfig.json');
 
 export const Locations = () => {

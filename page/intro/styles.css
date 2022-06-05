@@ -4,8 +4,17 @@
   margin: 0%;
 }
 /*intro*/
+
+h5 {
+  font-family: 'VT323', monospace;
+  color: aliceblue;
+  font-size: 36px;
+  text-shadow: 1px 1px 2px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+
+}
 body {
   height: 100vh;
+  max-height: 100vh;
   background-image: url(img/japanglish.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -86,12 +95,10 @@ a {
   animation-duration: 3s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-
   -webkit-animation-name: parpadeo;
   -webkit-animation-duration: 3s;
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
-  margin-top:25%;
 }
 
 @-moz-keyframes parpadeo {
@@ -150,6 +157,19 @@ a {
      padding: 5px;
      border-radius: 25%;
 }
+/*how to play*/
+
+.how {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px 0px 10px;
+  display: flex;
+  flex: column;
+}
+
+
 
 /*heroes*/
 .heroes {
@@ -177,12 +197,27 @@ a {
   .title {
     font-size: 64px;
   }
+  #charakters {
+    font-size: 36px;
+    margin: 0%;
+  }
+  .char--img {
+    margin: 1%;
+  }
+
   .trip {
     font-size: 24px;
   }
 
   .media {
     background-color: rgb(238, 255, 0);
+  }
+
+  p {
+    font-size: 23px  }
+
+  h5 {
+    font-size: 24px;
   }
 }
 
