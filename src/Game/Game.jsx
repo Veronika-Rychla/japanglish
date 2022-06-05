@@ -1,52 +1,14 @@
-import React, { useReducer } from 'react';
+import React from 'react';
 
-import { gameConfig } from './gameConfig';
 import { Background } from './Background';
 import { Character } from './Character';
 import { Conversation } from './Conversation';
-
-const initialState = {
-  currentLocation: 'Train station',
-  conversationIndex: 0,
-};
-
-const gameReducer = (state, action) => {
-  switch (action.type) {
-    case 'moveToNextConversation':
-      const nextLocation = getConversation(
-        state.currentLocation,
-        state.conversationIndex,
-      ).nextLocation;
-
-      if (nextLocation) {
-        return {
-          ...state,
-          currentLocation: nextLocation,
-          conversationIndex: 0,
-        };
-      }
-
-      return {
-        ...state,
-        conversationIndex: state.conversationIndex + 1,
-      };
-
-    default:
-      console.error('Invalid action ', { action, state });
-      return state;
-  }
-};
-
-const getLocationObject = (location) => {
-  return gameConfig.locations[location];
-};
-
-const getConversation = (location, conversationIndex) => {
-  return getLocationObject(location).conversation[conversationIndex];
-};
+import { useGameState } from './useGameState';
+import { getLocationObject } from './getLocationObject';
+import { getConversation } from './getConversation';
 
 export const Game = () => {
-  const [gameState, dispatch] = useReducer(gameReducer, initialState);
+  const [gameState, dispatch] = useGameState();
 
   const currentConversation = getConversation(
     gameState.currentLocation,
