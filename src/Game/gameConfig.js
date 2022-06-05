@@ -44,8 +44,6 @@ export const gameConfig = {
         {
           text: "He tries talking to the people nearby and some of them answer something that might be English but he can't understand a word.",
           type: 'description',
-          character: 'Charlie',
-          mood: 'charlie_surprised.png',
         },
         {
           text: "Damn, I should have taken that Japanese language preparatory course when they were offering it. All I know are a few generic phrases from anime I've watched.",
@@ -93,7 +91,7 @@ export const gameConfig = {
           text: "My house is quite far from the station, let's take a takushii.",
           type: 'dialogue',
           character: 'Hanako',
-          mood: 'hanako_neutral.png',
+          mood: 'hanako_happy.png',
         },
         {
           text: 'Take what?!',
@@ -466,10 +464,124 @@ export const gameConfig = {
       music: 'school.mp3',
       conversation: [
         {
-          text: 'Welcome to my school, Charlie!.',
+          text: 'Welcome to my school, Charlie!',
           type: 'dialogue',
           character: 'Hanako',
           mood: 'hanako_excited.png',
+        },
+        {
+          text: "Cool, I've always wanted to visit an authentic Japanese school. It looks exactly like from all those anime I'm watching.",
+          type: 'dialogue',
+          character: 'Charlie',
+          mood: 'charlie_excited.png',
+        },
+        {
+          text: 'Do you want to see a lesson? I think they should have English now.',
+          type: 'dialogue',
+          character: 'Hanako',
+          mood: 'hanako_happy.png',
+        },
+        {
+          text: "Sweet, I'll finally see how they teach it. Maybe I'll discover why their pronunciation is so… off the mark.",
+          type: 'monologue',
+          character: 'Charlie',
+          mood: 'charlie_excited.png',
+        },
+        {
+          text: 'Being the only foreigner in the class and a native speaker, Charlie naturally becomes a spectacle.',
+          type: 'description',
+        },
+        {
+          text: "Won't we speak? All they're doing are grammar exercises… non-stop!",
+          type: 'monologue',
+          character: 'Charlie',
+          mood: 'charlie_surprised.png',
+        },
+        {
+          text: 'The teacher then asks Charlie if he likes playing bareebooru.',
+          type: 'description',
+        },
+        {
+          text: 'bareebooru バレーボール',
+          type: 'quiz',
+          options: [
+            { option: 'basketball' },
+            { option: 'handball' },
+            { option: 'football' },
+            { option: 'volleyball', correct: true },
+          ],
+        },
+        {
+          text: "Why are they looking at me as if they're doubting I'm a native speaker?",
+          type: 'monologue',
+          character: 'Charlie',
+          mood: 'charlie_angry.png',
+        },
+        {
+          text: 'Charlie, give us your meeru.',
+          type: 'dialogue',
+          character: 'Hanako',
+          mood: 'hanako_excited.png',
+        },
+        {
+          text: 'My what?',
+          type: 'monologue',
+          character: 'Charlie',
+          mood: 'charlie_sad.png',
+        },
+        {
+          text: 'meeru メール',
+          type: 'quiz',
+          options: [
+            { option: 'phone number' },
+            { option: 'email', correct: true },
+            { option: 'social media profile' },
+            { option: 'lunch money' },
+          ],
+        },
+        {
+          text: 'Cool. Haitacchi for that!',
+          type: 'dialogue',
+          character: 'Hanako',
+          mood: 'hanako_happy.png',
+        },
+        {
+          text: 'Uff, she wants me to…?',
+          type: 'monologue',
+          character: 'Charlie',
+          mood: 'charlie_surprised.png',
+        },
+        {
+          text: 'haitacchi ハイタッチ',
+          type: 'quiz',
+          options: [
+            { option: 'clap my hands' },
+            { option: 'touch her hair' },
+            { option: 'high five', correct: true },
+            { option: 'cheer' },
+          ],
+        },
+        {
+          text: 'Say… when I visit America, could you take me to Dizuniirando?',
+          type: 'dialogue',
+          character: 'Hanako',
+          mood: 'hanako_excited.png',
+        },
+        {
+          text: 'Dizuniirando ディズニーランド',
+          type: 'quiz',
+          options: [
+            { option: 'Dinosaurland' },
+            { option: 'Star Wars museum' },
+            { option: 'Dakota' },
+            { option: 'Disneyland', correct: true },
+          ],
+        },
+        {
+          text: 'Okay, sure, why not. Our exchange trip story will continue… this time in my home country.',
+          type: 'monologue',
+          character: 'Charlie',
+          mood: 'charlie_happy.png',
         },
       ],
     },
