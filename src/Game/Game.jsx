@@ -31,6 +31,7 @@ export const Game = () => {
         <Conversation
           text={currentConversation.text}
           type={currentConversation.type}
+          options={currentConversation.options}
         />
       </div>
       <div>
