@@ -100,7 +100,7 @@ export const Intro = () => {
         </section>
         <section id="characters">
           <div className="heroes">
-            <div className="title">
+            <div className="title" id="charakters">
               <h1>Characters</h1>
             </div>
             <div class="char">
@@ -108,7 +108,7 @@ export const Intro = () => {
                 <div className="char__img" id="charlie--img"></div>
                 <div className="char__text">
                   <p>
-                    Charlie is a shy gamer boy from Canada who likes watching
+                    <h5>Charlie</h5> is a shy gamer boy from Canada who likes watching
                     anime and reading manga but except for a few generic
                     phrases, he doesn't know any Japanese. He comes to Japan for
                     a student exchange trip.
@@ -119,7 +119,7 @@ export const Intro = () => {
                 <div className="char__img" id="hanako--img"></div>
                 <div className="char__text">
                   <p>
-                    Hanako is a Japanese high school student who likes fashion.
+                    <h5>Hanako</h5> is a Japanese high school student who likes fashion.
                     Unlike Charlie, she's extroverted and outspoken. Because she
                     thinks her English is excellent, she volunteers to host an
                     exchange student.
@@ -127,10 +127,10 @@ export const Intro = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <a href="#" className="parpadea trip">
+            <a href="#" className="parpadea trip">
             Click anywhere to start the game
           </a>
+          </div>
         </section>
       </div>
       <footer>
