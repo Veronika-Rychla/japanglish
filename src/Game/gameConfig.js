@@ -173,7 +173,7 @@ export const gameConfig = {
         },
         {
           text: 'They have what?!',
-          type: 'quiz',
+          type: 'dialogue',
           character: 'Charlie',
           mood: 'charlie_surprised.png',
         },
@@ -219,10 +219,10 @@ export const gameConfig = {
           text: 'petto ペット beddo ベッド',
           type: 'quiz',
           options: [
-            { option: 'Radio - table - light', correct: true },
-            { option: 'TV - tea bags - armchair' },
-            { option: 'Rations - bubble tea - cereal' },
-            { option: 'Razor - teapot - right' },
+            { option: 'Cat - dining table' },
+            { option: 'Dog - sofa' },
+            { option: 'Parrot - suitcase' },
+            { option: 'Pet - bed', correct: true },
           ],
         },
         {

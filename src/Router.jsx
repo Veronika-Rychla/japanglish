@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
 
-import { Intro } from '../page/intro';
+import { Intro } from './Intro/Intro';
 import { Game } from './Game/Game';
 
 export const Router = () => {
