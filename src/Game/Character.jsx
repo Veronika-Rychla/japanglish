@@ -12,8 +12,8 @@ export const Character = (props) => {
       className="Character"
       alt={character}
       src={`/chibi/${mood}`}
-      width={100}
-      height={150}
+      width={200}
+      height={250}
     />
   );
 };

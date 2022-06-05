@@ -31,6 +31,12 @@ export const Conversation = (props) => {
           ))}
         </ul>
       )}
+      {!isQuiz && 
+        <div className="Conversation__button"  onClick={() => {
+            dispatch({ type: 'moveToNextConversation' });
+          }}>
+          <div className="Conversation__button-arrow"></div>
+      </div>}
     </div>
   );
 };

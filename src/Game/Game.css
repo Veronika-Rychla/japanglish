@@ -1,5 +1,4 @@
 .Game {
-
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -8,7 +7,28 @@
 }
 
 .Game__location {
-  color: white;
-
+  font-family: 'Bangers', cursive;
+  color: aliceblue;
+  text-align: center;
+  text-shadow: 1px 1px 2px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+  font-size: 48px;
+  margin-bottom: 10px;
 }
 
+.Game__character {
+  min-height: 250px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.Game__toolbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  
+}
+.Game__toolbar-restart {
+  cursor: pointer;
+}

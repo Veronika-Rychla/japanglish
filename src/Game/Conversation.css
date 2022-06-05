@@ -1,20 +1,63 @@
 .Conversation {
      background-color:#D9D9D9;
-     border-radius: 25px;
-     padding: 5%;
-     margin: 0 5% 1% 5%;
-     border: 10px solid #2a1b3d;
+     padding: 24px;
+     margin: 16px;
+     border: 8px solid #2a1b3d;
      border-radius: 80px;
      box-shadow: 10px 10px 5px #c009585e;
-     max-height: 35%;
-     overflow: scroll;
-     overflow: hidden;
+     max-height: 60%;
+     overflow: auto;
+     display: flex;
+
 }
 
 .Conversation__text {
-          color: #591978;
-          text-shadow: #000000;
-          font-family: 'VT323', monospace;
-          font-size: 20px;
-           text-shadow: 1px 1px 2px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
+     color: #591978;
+     font-family: 'VT323', monospace;
+     font-size: 20px;
+     text-shadow: 1px 1px 2px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
+}
+
+.Conversation__quiz-option {
+     cursor: pointer;
+}
+
+/*button wit arrow*/
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.Conversation__button {
+     cursor: pointer;
+     padding-top: 16px;
+     padding-right: 8px;
+}
+
+.Conversation__button-arrow {
+     position: fixed;
+     width: 50px;
+	height: 50px;
+	box-sizing: border-box;
+	border: 5px rgb(11, 11, 11) solid;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 5s ease-in-out infinite;
+     background-image: url(./right-arrow.png);
+     filter: invert(100%);
+	background-size: cover;
+	background-color: #591978;
+	background-position: center;
 }

@@ -26,29 +26,29 @@ export const Game = () => {
         })`,
       }}
     >
-      <h1 className="Game__location">{gameState.currentLocation}</h1>
-      <div>
-        <Character
-          character={currentConversation.character}
-          mood={currentConversation.mood}
-        />
+      <div className="Game__toolbar">
         <HappinessMetre happiness={gameState.currentHappiness} />
+        <img 
+          className="Game__toolbar-restart" 
+          alt="restart" src="/restart.svg"
+          width={50}
+          height={50} 
+          onClick={() => window.location.reload()}
+        />
+      </div>
+      <h1 className="Game__location">{gameState.currentLocation}</h1>
+        <div className="Game__character">
+          <Character
+            character={currentConversation.character}
+            mood={currentConversation.mood}
+          />
+        </div>
         <Conversation
           text={currentConversation.text}
           type={currentConversation.type}
           options={currentConversation.options}
           dispatch={dispatch}
-        />
-      </div>
-      <div>
-        <button
-          onClick={() => {
-            dispatch({ type: 'moveToNextConversation' });
-          }}
-        >
-          Go next
-        </button>
-      </div>
+          />
     </div>
   );
 
