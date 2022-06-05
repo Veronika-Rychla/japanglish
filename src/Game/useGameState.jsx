@@ -5,6 +5,7 @@ import { getConversation } from './getConversation';
 const initialState = {
   currentLocation: 'Train station',
   conversationIndex: 0,
+  currentHappiness: 50,
 };
 
 const gameReducer = (state, action) => {
@@ -27,7 +28,18 @@ const gameReducer = (state, action) => {
         ...state,
         conversationIndex: state.conversationIndex + 1,
       };
-
+    case 'increaseHappiness':
+      if (currentHappiness === 100) return state;
+      return {
+        ...state,
+        currentHappiness: currentHappiness + 25,
+      };
+    case 'decreaseHappiness':
+      if (currentHappiness === 0) return state;
+      return {
+        ...state,
+        currentHappiness: currentHappiness - 25,
+      };
     default:
       console.error('Invalid action ', { action, state });
       return state;

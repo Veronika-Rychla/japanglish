@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Background } from './Background';
 import { Character } from './Character';
 import { Conversation } from './Conversation';
+import { HappinessMetre } from './HappinessMetre';
 import { useGameState } from './useGameState';
 import { getLocationObject } from './getLocationObject';
 import { getConversation } from './getConversation';
@@ -18,18 +18,21 @@ export const Game = () => {
   );
 
   return (
-    <div className="Game">
-      <Background
-        backgroundImage={
+    <div
+      className="Game"
+      style={{
+        backgroundImage: `url(/background/${
           getLocationObject(gameState.currentLocation).background
-        }
-      />
-      <h1>{gameState.currentLocation}</h1>
+        })`,
+      }}
+    >
+      <h1 className="Game__location">{gameState.currentLocation}</h1>
       <div>
         <Character
           character={currentConversation.character}
           mood={currentConversation.mood}
         />
+        <HappinessMetre happiness={gameState.currentHappiness} />
         <Conversation
           text={currentConversation.text}
           type={currentConversation.type}

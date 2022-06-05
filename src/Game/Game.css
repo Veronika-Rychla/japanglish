@@ -1,2 +1,11 @@
 .Game {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+}
+
+.Game__location {
+  color: white;
 }

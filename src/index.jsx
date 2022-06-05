@@ -3,14 +3,14 @@ import { createRoot } from 'react-dom/client';
 
 import { Router } from './Router';
 
-// import './style.css';
+import './App.css';
 
 const App = () => {
   return (
-    <>
+    <div className="App">
       <Router />
-    </>
+    </div>
   );
 };
 
-createRoot(document.querySelector('#app')).render(<App />);
+createRoot(document.querySelector('#root')).render(<App />);
