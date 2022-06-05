@@ -2,6 +2,7 @@ import React, { useReducer } from 'react';
 
 import { gameConfig } from './gameConfig';
 import { Background } from './Background';
+import { Character } from './Character';
 
 const initialState = {
   currentLocation: 'Train station',
@@ -93,6 +94,11 @@ export const Game = () => {
 
   // console.log(dialogue);
 
+  const currentConversation = getConversation(
+    gameState.currentLocation,
+    gameState.conversationIndex,
+  );
+
   return (
     <div>
       <Background
@@ -102,20 +108,21 @@ export const Game = () => {
       />
       <h1>{gameState.currentLocation}</h1>
       <div>
-        {
-          getConversation(
-            gameState.currentLocation,
-            gameState.conversationIndex,
-          ).text
-        }
+        <Character
+          name={currentConversation.name}
+          mood={currentConversation.mood}
+        />
+        <div>{currentConversation.text}</div>
       </div>
-      <button
-        onClick={() => {
-          dispatch({ type: 'moveToNextConversation' });
-        }}
-      >
-        Go next
-      </button>
+      <div>
+        <button
+          onClick={() => {
+            dispatch({ type: 'moveToNextConversation' });
+          }}
+        >
+          Go next
+        </button>
+      </div>
     </div>
   );
 

@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 
 import { Router } from './Router';
 
-import './style.css';
+// import './style.css';
 
 const App = () => {
   return (

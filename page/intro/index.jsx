@@ -1,7 +1,7 @@
 import React from 'react';
-import './styles.css';
-import '../heroes/styles.css';
-import '../howToPlay/styles.css';
+// import './styles.css';
+// import '../heroes/styles.css';
+// import '../howToPlay/styles.css';
 
 const howToPlay = () => {
   document.getElementById('intro').style.display = 'none';
@@ -108,10 +108,10 @@ export const Intro = () => {
                 <div className="char__img" id="charlie--img"></div>
                 <div className="char__text">
                   <p>
-                    <h5>Charlie</h5> is a shy gamer boy from Canada who likes watching
-                    anime and reading manga but except for a few generic
-                    phrases, he doesn't know any Japanese. He comes to Japan for
-                    a student exchange trip.
+                    <h5>Charlie</h5> is a shy gamer boy from Canada who likes
+                    watching anime and reading manga but except for a few
+                    generic phrases, he doesn't know any Japanese. He comes to
+                    Japan for a student exchange trip.
                   </p>
                 </div>
               </div>
@@ -119,17 +119,17 @@ export const Intro = () => {
                 <div className="char__img" id="hanako--img"></div>
                 <div className="char__text">
                   <p>
-                    <h5>Hanako</h5> is a Japanese high school student who likes fashion.
-                    Unlike Charlie, she's extroverted and outspoken. Because she
-                    thinks her English is excellent, she volunteers to host an
-                    exchange student.
+                    <h5>Hanako</h5> is a Japanese high school student who likes
+                    fashion. Unlike Charlie, she's extroverted and outspoken.
+                    Because she thinks her English is excellent, she volunteers
+                    to host an exchange student.
                   </p>
                 </div>
               </div>
             </div>
             <a href="#" className="parpadea trip">
-            Click anywhere to start the game
-          </a>
+              Click anywhere to start the game
+            </a>
           </div>
         </section>
       </div>
