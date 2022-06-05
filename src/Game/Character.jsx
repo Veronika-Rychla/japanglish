@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './Character.css';
+
 export const Character = (props) => {
   const { character, mood } = props;
 

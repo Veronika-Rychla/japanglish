@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './Conversation.css';
+
 export const Conversation = (props) => {
   const { text, type, options } = props;
   const isQuiz = type === 'quiz';

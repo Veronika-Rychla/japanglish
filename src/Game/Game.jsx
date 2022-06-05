@@ -7,6 +7,8 @@ import { useGameState } from './useGameState';
 import { getLocationObject } from './getLocationObject';
 import { getConversation } from './getConversation';
 
+import './Game.css';
+
 export const Game = () => {
   const [gameState, dispatch] = useGameState();
 
