@@ -1,6 +1,7 @@
 import React, { useReducer } from 'react';
 
 import { gameConfig } from './gameConfig';
+import { Background } from './Background';
 
 const initialState = {
   currentLocation: 'Train station',
@@ -34,8 +35,12 @@ const gameReducer = (state, action) => {
   }
 };
 
+const getLocationObject = (location) => {
+  return gameConfig.locations[location];
+};
+
 const getConversation = (location, conversationIndex) => {
-  return gameConfig.locations[location].conversation[conversationIndex];
+  return getLocationObject(location).conversation[conversationIndex];
 };
 
 export const Game = () => {
@@ -48,11 +53,6 @@ export const Game = () => {
 
   // const getLocationName = () => {
   //   return jsonData.locations[day].name;
-  // };
-
-  // const getBackgroundImage = () => {
-  //   const changeBackground = document.querySelector('body');
-  //   changeBackground.style.backgroundImage = `url(./background/${jsonData.locations[day].background})`;
   // };
 
   // const getDialogue = () => {
@@ -95,6 +95,11 @@ export const Game = () => {
 
   return (
     <div>
+      <Background
+        backgroundImage={
+          getLocationObject(gameState.currentLocation).background
+        }
+      />
       <h1>{gameState.currentLocation}</h1>
       <div>
         {
@@ -116,7 +121,6 @@ export const Game = () => {
 
   // End functions
 
-  // getBackgroundImage();
   // return (
   //   <>
   //     <section className="locationBody">
