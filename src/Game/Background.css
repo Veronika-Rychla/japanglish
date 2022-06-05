@@ -1,2 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Press+Start+2P&family=VT323&display=swap");
+
 .Background {
+     height: 100vh;
+  max-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+h1 {
+     font-family: 'Bangers', cursive;
+     color: aliceblue;
+     text-shadow: 1px 1px 2px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+     font-size: 48px;
+     margin-bottom: 10px;
+ }
+
