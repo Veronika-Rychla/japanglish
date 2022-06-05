@@ -170,26 +170,7 @@ a {
   padding: 0% 5% 0% 5%;
 }
 
-/*phone*/
-@media (max-width: 600px) {
-  .title {
-    font-size: 64px;
-  }
-  .trip {
-    font-size: 24px;
-  }
 
-  .media {
-    background-color: rgb(255, 55, 0);
-  }
-  .char--img {
-    width: 80px;
-  }
-
-  a {
-    margin-top: 5px;
-  }
-}
 /*tablet*/
 @media (min-width: 601px) and (max-width: 1024px) {
   .title {
@@ -274,8 +255,6 @@ a {
   background-image: url(./img/chibi/charlie_neutral.png);
   width: 100px;
   height: 150px;
-  background-size: 100px 150px;
-  background-color: lime;
 }
 
 #hanako--img {
@@ -414,109 +393,7 @@ p {
 .media {
   height: 30px;
 }
-/*phone*/
-@media (max-width: 600px) {
-  .title {
-    font-size: 64px;
-  }
-  .trip {
-    font-size: 18px;
-  }
 
-  .media {
-    background-color: rgb(255, 55, 0);
-  }
-  p {
-    font-size: 18px;
-  }
-
-  h5 {
-    font-size: 20px;
-  }
-
-  a {
-    font-size: 18px;
-  }
-}
-/*tablet*/
-@media (min-width: 601px) and (max-width: 1024px) {
-  .title {
-    font-size: 64px;
-
-    text-shadow: 5px 5px 8px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
-  }
-  .trip {
-    font-size: 24px;
-  }
-
-  .media {
-    background-color: rgb(238, 255, 0);
-  }
-  p {
-    font-size: 23px;
-  }
-
-  h5 {
-    font-size: 24px;
-  }
-}
-
-/*monitor*/
-@media (min-width: 1024px) and (max-width: 1920px) {
-  .media {
-    background-color: rgb(13, 255, 0);
-  }
-  .nav--field {
-    display: flex;
-    flex-direction: row-reverse;
-    max-width: 100%;
-    justify-content: space-between;
-    gap: 2em;
-  }
-  .title {
-    font-family: 'Bangers', cursive;
-    text-shadow: 5px 5px 8px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
-    font-size: 64px;
-  }
-
-  p {
-    font-size: 24px;
-    text-shadow: 5px 5px 8px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
-  }
-}
-
-/*super monitor*/
-@media (min-width: 1920px) {
-  .media {
-    background-color: rgb(0, 38, 255);
-  }
-  .nav--field {
-    display: flex;
-    flex-direction: row-reverse;
-    max-width: 100%;
-    justify-content: space-between;
-    gap: 5em;
-  }
-  .title {
-    color: aliceblue;
-    text-shadow: 5px 5px 8px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
-    font-size: 96px;
-    margin-bottom: 10px;
-  }
-
-  p {
-    color: #591978;
-    text-shadow: #000000;
-    font-size: 50px;
-    text-shadow: 5px 5px 8px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
-  }
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0%;
-  margin: 0%;
-}
 /*heroes*/
 
 body {
@@ -603,9 +480,29 @@ p {
 }
 /*phone*/
 @media (max-width: 600px) {
+  .title {
+    font-size: 64px;
+  }
+  .trip {
+    font-size: 18px;
+  }
   .media {
     background-color: rgb(255, 55, 0);
   }
+  p {
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  a {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  .char__text {
+    font-size: 18px;
+  }
+ 
   .char__img {
     width: 40px;
     height: 80px;
@@ -616,17 +513,54 @@ p {
     padding: 3%;
     margin: 3%;
     border: 3px solid #2a1b3d;
+    width: 80px;
   }
 }
 /*tablet*/
 @media (min-width: 601px) and (max-width: 1024px) {
+  .title {
+    font-size: 64px;
+
+    text-shadow: 5px 5px 8px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+  }
+  .trip {
+    font-size: 24px;
+  }
+
   .media {
     background-color: rgb(238, 255, 0);
+  }
+  p {
+    font-size: 23px;
+  }
+
+  h5 {
+    font-size: 24px;
   }
 }
 
 /*monitor*/
 @media (min-width: 1024px) and (max-width: 1920px) {
+  .media {
+    background-color: rgb(13, 255, 0);
+  }
+  .nav--field {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 100%;
+    justify-content: space-between;
+    gap: 2em;
+  }
+  .title {
+    font-family: 'Bangers', cursive;
+    text-shadow: 5px 5px 8px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+    font-size: 64px;
+  }
+
+  p {
+    font-size: 24px;
+    text-shadow: 5px 5px 8px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
+  }
   .heroes {
     display: flex;
     flex-direction: column;
@@ -648,15 +582,48 @@ p {
     overflow: hidden;
     box-shadow: 0 15px 25px 0px rgba(0, 0, 0, 0.6);
   }
-  .media {
-    background-color: rgb(13, 255, 0);
-  }
-
   .char {
     display: flex;
     flex-direction: row;
   }
 }
+
+
+/*super monitor*/
+@media (min-width: 1920px) {
+  .media {
+    background-color: rgb(0, 38, 255);
+  }
+  .nav--field {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 100%;
+    justify-content: space-between;
+    gap: 5em;
+  }
+  .title {
+    color: aliceblue;
+    text-shadow: 5px 5px 8px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+    font-size: 96px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #591978;
+    text-shadow: #000000;
+    font-size: 50px;
+    text-shadow: 5px 5px 8px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+
+
 
 /*super monitor*/
 @media (min-width: 1920px) {
