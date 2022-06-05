@@ -1,18 +1,15 @@
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import { BrowserRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
+
+import { Router } from './Router';
+
 import './style.css';
-import { Intro } from '../page/intro';
-import { Locations } from '../page/Locations';
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Intro />} />
-        <Route path="game" element={<Locations />} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <Router />
+    </>
   );
 };
 
