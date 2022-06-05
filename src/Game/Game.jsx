@@ -3,6 +3,7 @@ import React, { useReducer } from 'react';
 import { gameConfig } from './gameConfig';
 import { Background } from './Background';
 import { Character } from './Character';
+import { Conversation } from './Conversation';
 
 const initialState = {
   currentLocation: 'Train station',
@@ -47,60 +48,13 @@ const getConversation = (location, conversationIndex) => {
 export const Game = () => {
   const [gameState, dispatch] = useReducer(gameReducer, initialState);
 
-  // const [day, setDay] = useState(0);
-  // const [dialogue, setDialogue] = useState(0);
-
-  // // Start functions
-
-  // const getLocationName = () => {
-  //   return jsonData.locations[day].name;
-  // };
-
-  // const getDialogue = () => {
-  //   return jsonData.locations[day].conversation[dialogue].text;
-  // };
-
-  // const getCharacter = () => {
-  //   return jsonData.locations[day].conversation[dialogue].character;
-  // };
-
-  // const getMood = () => {
-  //   return `./chibi/${jsonData.locations[day].conversation[dialogue].mood}`;
-  // };
-
-  // const getType = () => {
-  //   return jsonData.locations[day].conversation[dialogue].type;
-  // };
-
-  // const getTestQuestions = () => {
-  //   return jsonData.locations[day].conversation[dialogue].options;
-  // };
-
-  // const incrementDialogue = () => {
-  //   console.log(
-  //     `Conversation lenght is ${jsonData.locations[day].conversation.length}`,
-  //   );
-  //   console.log(`Dialogue lenght is ${dialogue}`);
-  //   if (jsonData.locations[day].conversation.length > dialogue + 1) {
-  //     setDialogue(dialogue + 1);
-  //   } else {
-  //     setDialogue(0);
-  //     console.log(`Location lenght is ${jsonData.locations.length} and ${day}`);
-  //     if (jsonData.locations.length > day + 1) {
-  //       setDay(day + 1);
-  //     }
-  //   }
-  // };
-
-  // console.log(dialogue);
-
   const currentConversation = getConversation(
     gameState.currentLocation,
     gameState.conversationIndex,
   );
 
   return (
-    <div>
+    <div className="Game">
       <Background
         backgroundImage={
           getLocationObject(gameState.currentLocation).background
@@ -109,10 +63,13 @@ export const Game = () => {
       <h1>{gameState.currentLocation}</h1>
       <div>
         <Character
-          name={currentConversation.name}
+          character={currentConversation.character}
           mood={currentConversation.mood}
         />
-        <div>{currentConversation.text}</div>
+        <Conversation
+          text={currentConversation.text}
+          type={currentConversation.type}
+        />
       </div>
       <div>
         <button
