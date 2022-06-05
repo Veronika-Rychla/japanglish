@@ -191,6 +191,13 @@ a {
   .media {
     background-color: rgb(255, 55, 0);
   }
+  .char--img {
+    width: 80px;
+  }
+
+  a {
+    margin-top: 5px;
+  }
 }
 /*tablet*/
 @media (min-width: 601px) and (max-width: 1024px) {
@@ -243,7 +250,7 @@ a {
   }
 
   #title--intro {
-    font-size: 200px;
+    font-size: 300px;
 }
 #intro {
  display: flex;
@@ -251,18 +258,23 @@ a {
  align-items: center;
 }
   .title {
-    font-size: 200px;
+    font-size: 300px;
     text-shadow: 10px 10px 20px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
   }
   .trip {
   
     color: aliceblue;
     text-align: right;
-    font-size: 96px;
+    font-size: 120px;
     text-shadow: 10px 10px 20px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
   }
 
   .parpadea { 
-       font-size: 36px;
+       font-size: 96px;
+}
+#intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 }
