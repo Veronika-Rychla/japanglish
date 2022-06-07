@@ -591,6 +591,8 @@ p {
     display: flex;
     flex-direction: row;
   }
+
+
 }
 
 
@@ -618,6 +620,20 @@ p {
     text-shadow: #000000;
     font-size: 50px;
     text-shadow: 5px 5px 8px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
+  }
+
+  #charlie--img {
+    background-image: url(./img/chibi/charlie_neutral.png);
+    width: 200px;
+    height: 350px;
+  
+  }
+  
+  
+  #hanako--img {
+    background-image: url(./img/chibi/hanako_neutral.png);
+    width: 200px;
+    height: 350px;
   }
 }
 

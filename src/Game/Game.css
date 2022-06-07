@@ -7,6 +7,9 @@
   background-size: cover;
 }
 
+img {
+  filter: drop-shadow(8px 8px 16px black)
+}
 .Game__location {
   font-family: 'Bangers', cursive;
   color: aliceblue;
@@ -38,6 +41,7 @@
   padding: 5px;
   
 }
+
 
 /*phone*/
 @media (max-width: 600px) {
@@ -72,6 +76,67 @@
      .media {
           background-color: rgb(0, 38, 255)
      }
+     .Game__toolbar {
+       flex-basis: 10%;
+     }
+     .Game__location {
+       flex-basis: 15%;
+       font-size: 124px;
+       text-shadow: 8px 8px 24px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+     }
+     .Game__character {
+       flex-basis: 33%;
+     }
+     .Conversation {
+       flex-basis: 38%;
      
- }
+     }
+     
+     .Game__toolbar-restart {
+      padding: 24px;
+      height: 124px;
+      width: 124px;
+    }
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+    .HappinessMetre {
+      animation: taadaa 3s infinite;
+      animation-direction: alternate;
+      height: 124px;
+      width: 124px;
+  }
+  .Conversation__text {
+    font-size: 80px;
+    text-shadow: 8px 8px 16px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
+}
 
+.Conversation {
+  padding: 48px;
+  margin: 64px;
+  border: 24px solid #2a1b3d;
+  box-shadow: 24px 24px 16px #c009585e;
+  border-radius: 148px;
+}
+
+
+.Conversation__button-arrow {
+    right: 48px;
+    bottom: 180px;
+    width: 160px;
+    height: 160px;
+    border: 16px rgb(11, 11, 11) solid;
+}
+
+li {
+  color: #591978;
+  font-family: 'VT323', monospace;
+  font-size: 56px;
+}
+img {
+  filter: drop-shadow(16px 16px 24px black);
+ 
+}
+}
