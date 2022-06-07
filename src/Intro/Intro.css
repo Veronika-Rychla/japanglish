@@ -254,18 +254,15 @@ a {
 #charlie--img {
   background-image: url(./img/chibi/charlie_neutral.png);
   width: 100px;
-  height: 150px;
- z-index: 2;
+  height: 120px;
+
 }
-#pokus {
-  background: linear-gradient(180deg, #d8bee6, #ffc8da00);
-  z-index: 1;
-}
+
 
 #hanako--img {
   background-image: url(./img/chibi/hanako_neutral.png);
   width: 100px;
-  height: 150px;
+  height: 120px;
 }
 
 p {

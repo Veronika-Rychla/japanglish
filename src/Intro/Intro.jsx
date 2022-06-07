@@ -134,9 +134,6 @@ export const Intro = () => {
           </div>
         </section>
       </div>
-      <footer>
-        <div className="media">media</div>
-      </footer>
     </>
   );
 };
