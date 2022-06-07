@@ -43,12 +43,14 @@ export const Game = () => {
             mood={currentConversation.mood}
           />
         </div>
+        
         <Conversation
           text={currentConversation.text}
           type={currentConversation.type}
           options={currentConversation.options}
           dispatch={dispatch}
           />
+        
     </div>
   );
 

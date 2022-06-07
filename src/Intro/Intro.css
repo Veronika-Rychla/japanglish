@@ -26,14 +26,14 @@ body {
   font-family: 'Bangers', cursive;
   color: aliceblue;
   font-size: 96px;
-  text-shadow: 5px 5px 8px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+  text-shadow: 1px 1px 8px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
 }
 .trip {
   font-family: 'VT323', monospace;
   color: aliceblue;
   text-align: right;
   font-size: 36px;
-  text-shadow: 1px 1px 2px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+  text-shadow: 1px 1px 8px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
 }
 
 .media {
@@ -68,15 +68,15 @@ body {
 
 a {
   font-family: 'Press Start 2P';
-  font-size: 25px;
-  color: #fff;
+  font-size: 24px;
+  color: rgb(182, 19, 163);
   text-align: center;
   margin-top: 50px;
   cursor: pointer;
   letter-spacing: 4px;
-  color: #6b3b6e;
-  text-shadow: 0 0 5px #ec41bf, 0 0 10px #8606b6, 0 0 15px #fff,
-    0 0 20px #921982, 0 0 25px #770067;
+  color: #763c7a;
+  text-shadow: 0 0 8px #ec41bf, 0 0 16px #8606b6, 0 0 16px #fff,
+    0 0 24px #921982, 0 0 24px #770067;
   -webkit-text-fill-color: #f4ecff;
   -webkit-text-stroke-color: #c546f7;
   -webkit-text-stroke-width: 0;
@@ -255,6 +255,11 @@ a {
   background-image: url(./img/chibi/charlie_neutral.png);
   width: 100px;
   height: 150px;
+ z-index: 2;
+}
+#pokus {
+  background: linear-gradient(180deg, #d8bee6, #ffc8da00);
+  z-index: 1;
 }
 
 #hanako--img {
@@ -478,6 +483,10 @@ p {
 .media {
   height: 30px;
 }
+
+
+
+
 /*phone*/
 @media (max-width: 600px) {
   .title {
@@ -509,10 +518,9 @@ p {
     background-repeat: no-repeat;
     background-position: left;
     background-size: contain;
-    border-radius: 10px;
     padding: 3%;
     margin: 3%;
-    border: 3px solid #2a1b3d;
+    border: 8px solid #2a1b3d;
     width: 80px;
   }
 }

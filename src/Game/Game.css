@@ -3,6 +3,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+ 
   background-size: cover;
 }
 
@@ -10,7 +11,7 @@
   font-family: 'Bangers', cursive;
   color: aliceblue;
   text-align: center;
-  text-shadow: 1px 1px 2px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+  text-shadow: 5px 5px 8px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
   font-size: 48px;
   margin-bottom: 10px;
 }
@@ -27,8 +28,57 @@
   display: flex;
   justify-content: space-between;
   padding: 16px;
-  
+ 
 }
+
 .Game__toolbar-restart {
   cursor: pointer;
+  background-color: #2a1b3d;
+  border-radius: 25%;
+  padding: 5px;
+  
 }
+
+.help {
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  max-height: 60%;
+}
+
+/*phone*/
+@media (max-width: 600px) {
+  .media {
+       background-color: rgb(255, 55, 0)
+  }
+  .board--charlie {
+       display: none;
+  }
+}
+/*tablet*/
+@media (min-width: 601px) and (max-width: 1024px) {
+
+  .media {
+       background-color: rgb(238, 255, 0)
+  }
+  
+  }
+
+/*monitor*/
+@media (min-width: 1025px) and (max-width: 1920px) {
+  .media {
+       background-color: rgb(13, 255, 0)
+  }
+  
+  
+  }
+
+
+/*super monitor*/
+@media (min-width: 1920px)  {
+  .media {
+       background-color: rgb(0, 38, 255)
+  }
+  
+}
+

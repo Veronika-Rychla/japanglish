@@ -8,6 +8,8 @@
      max-height: 60%;
      overflow: auto;
      display: flex;
+     flex-direction: column;
+     align-items: center;
     
 
 }
@@ -20,7 +22,13 @@
 }
 
 .Conversation__quiz-option {
+     background: linear-gradient(30deg, #2a1b3dbf, #f8f3f4);
      cursor: pointer;
+     border: 8px solid #2a1b3d;
+     padding: 8px;
+     border-radius: 80px;
+     box-shadow: 0 10px 0 0 #c009585e;
+     text-shadow: 1px 1px 2px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
 }
 
 /*button wit arrow*/
@@ -73,7 +81,7 @@ li {
 }
 
 ul {
-     list-style-type: square;
-     list-style-image: url(faviconb.ico);
+     list-style-type:circle;
+     list-style-type: none;
      list-style-position: inside;
-   }
+}

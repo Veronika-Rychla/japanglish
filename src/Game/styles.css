@@ -254,7 +254,12 @@ p {
      .media {
           background-color: rgb(13, 255, 0)
      }
-     
+     .Conversation {
+         
+          max-height: 60%;
+          height: 30%;
+          
+      }
      
      }
  
@@ -264,5 +269,11 @@ p {
      .media {
           background-color: rgb(0, 38, 255)
      }
+     .Conversation {
+         
+          max-height: 60%;
+          height: 30%;
+          
+      }
      
  }
