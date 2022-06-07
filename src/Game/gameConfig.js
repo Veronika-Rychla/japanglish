@@ -100,8 +100,7 @@ export const gameConfig = {
           mood: "charlie_surprised.png",
         },
         {
-          mood: "takushii.jpg",
-          character: "quiz",
+          text: "Takuschii",
           type: "quiz",
           options: [
             { option: "an underground train" },

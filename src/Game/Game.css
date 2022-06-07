@@ -3,9 +3,10 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
- 
   background-size: cover;
-}
+  background-position-x: center;
+  }
+
 
 img {
   filter: drop-shadow(8px 8px 16px black)
