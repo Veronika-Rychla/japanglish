@@ -1,4 +1,5 @@
 import React, { useReducer } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import { getConversation } from './getConversation';
 
@@ -8,14 +9,16 @@ const initialState = {
   currentHappiness: 50,
 };
 
-const gameReducer = (state, action) => {
+const gameReducer = (navigate) => (state, action) => {
   switch (action.type) {
     case 'moveToNextConversation':
       const nextLocation = getConversation(
         state.currentLocation,
         state.conversationIndex,
       ).nextLocation;
-
+      if (nextLocation === '/credits') {
+        navigate('/credits');
+      }
       if (nextLocation) {
         return {
           ...state,
@@ -35,7 +38,10 @@ const gameReducer = (state, action) => {
         currentHappiness: state.currentHappiness + 25,
       };
     case 'decreaseHappiness':
-      if (state.currentHappiness === 0) return state;
+      if (state.currentHappiness === 0) {
+        navigate('/game-over');
+        return state;
+      }
       return {
         ...state,
         currentHappiness: state.currentHappiness - 25,
@@ -47,5 +53,6 @@ const gameReducer = (state, action) => {
 };
 
 export const useGameState = () => {
-  return useReducer(gameReducer, initialState);
+  const navigate = useNavigate();
+  return useReducer(gameReducer(navigate), initialState);
 };

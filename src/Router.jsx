@@ -11,9 +11,9 @@ export const Router = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Intro />} />
-        <Route path="game" element={<Game />} />
-        <Route path="gameover" element={<GameOver />} />
-        <Route path="credits" element={<Credits />} />
+        <Route path="/game" element={<Game />} />
+        <Route path="/game-over" element={<GameOver />} />
+        <Route path="/credits" element={<Credits />} />
       </Routes>
     </BrowserRouter>
   );
