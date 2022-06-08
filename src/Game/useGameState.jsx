@@ -38,7 +38,7 @@ const gameReducer = (navigate) => (state, action) => {
         currentHappiness: state.currentHappiness + 25,
       };
     case 'decreaseHappiness':
-      if (state.currentHappiness === 0) {
+      if (state.currentHappiness === 25) {
         navigate('/game-over');
         return state;
       }

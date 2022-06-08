@@ -12,6 +12,7 @@ export const Conversation = (props) => {
       dispatch({ type: 'moveToNextConversation' });
     } else {
       dispatch({ type: 'decreaseHappiness' });
+      dispatch({ type: 'moveToNextConversation' });
     }
   };
 
@@ -31,12 +32,16 @@ export const Conversation = (props) => {
           ))}
         </ul>
       )}
-      {!isQuiz && 
-        <div className="Conversation__button"  onClick={() => {
+      {!isQuiz && (
+        <div
+          className="Conversation__button"
+          onClick={() => {
             dispatch({ type: 'moveToNextConversation' });
-          }}>
+          }}
+        >
           <div className="Conversation__button-arrow"></div>
-      </div>}
+        </div>
+      )}
     </div>
   );
 };
