@@ -201,10 +201,10 @@ export const gameConfig = {
           text: "Rajio ラジオ teeburu テーブル raito ライト",
           type: "quiz",
           options: [
-            { option: "TV - tea bags - armchair" },
-            { option: "Radio - table - light", correct: true },
-            { option: "Rations - bubble tea - cereal" },
-            { option: "Razor - teapot - right" },
+            { option: "TV  tea bags  armchair" },
+            { option: "Radio  table  light", correct: true },
+            { option: "Rations  bubble tea  cereal" },
+            { option: "Razor  teapot  right" },
           ],
         },
         {
