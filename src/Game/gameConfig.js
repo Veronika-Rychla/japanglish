@@ -241,7 +241,7 @@ export const gameConfig = {
     'Shopping centre': {
       name: 'Shopping centre',
       background: 'shoppingcentre.jpg',
-      music: 'shoppingcentre.mp3',
+      music: '/music/shoppingcentre.mp3',
       conversation: [
         {
           text: 'Gomen, my parents are still on their business trip and I can’t really cook. Let’s go to the depaato to eat.',
@@ -461,7 +461,7 @@ export const gameConfig = {
     School: {
       name: 'School',
       background: 'school.jpg',
-      music: 'school.mp3',
+      music: '/music/school.mp3',
       conversation: [
         {
           text: 'Welcome to my school, Charlie!',
