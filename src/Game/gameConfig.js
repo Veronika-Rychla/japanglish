@@ -15,7 +15,7 @@ export const gameConfig = {
     'Train station': {
       name: 'Train station',
       background: 'trainstation.jpg',
-      music: 'music/trainstation.mp3',
+      music: '/music/trainstation.mp3',
       conversation: [
         {
           text: "Charlie arrives in Tokyo, dead tired and jet-lagged. He can't read any signs and people are reluctant to talk to him so he starts questioning his resolve for this exchange trip. His teacher claimed that the Japanese study English as a compulsory subject but Charlie suspects he was deceived.",
@@ -143,7 +143,7 @@ export const gameConfig = {
     Home: {
       name: 'Home',
       background: 'home.jpg',
-      music: 'home.mp3',
+      music: '/music/home.mp3',
       conversation: [
         {
           text: 'That was a weird ride. Hanako kept talking but I barely understood half of what she was saying. At least I could see the city.',

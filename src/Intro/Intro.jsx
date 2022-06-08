@@ -1,8 +1,6 @@
 import React from 'react';
 
 import './Intro.css';
-// import '../heroes/styles.css';
-// import '../howToPlay/styles.css';
 
 const howToPlay = () => {
   document.getElementById('intro').style.display = 'none';
