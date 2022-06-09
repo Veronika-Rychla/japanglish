@@ -34,7 +34,7 @@ img {
 .Game__toolbar {
   display: flex;
   justify-content: space-between;
-  padding: 34px;
+  padding: 8px;
  
 }
 
