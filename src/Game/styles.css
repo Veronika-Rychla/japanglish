@@ -187,7 +187,7 @@ p {
      position: absolute;
      top:- 1rem;
      left: 50%;
-     transform: translateX(-50%) translateY(-100%) scale(var(--scale));
+     transform: translateX(-50%) translateY(-100%);
 }
 
 .avatar2::before {
@@ -244,6 +244,16 @@ p {
      .board--charlie {
           display: none;
      }
+     .Game__toolbar-restart {
+          padding: 8px;
+          height: 50px;
+          width: 50px;
+        }
+
+        .HappinessMetre {
+          height: 50px;
+          width: 50px;
+      }
 }
 /*tablet*/
 @media (min-width: 601px) and (max-width: 1024px) {

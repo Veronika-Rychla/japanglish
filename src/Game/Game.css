@@ -34,7 +34,7 @@ img {
 .Game__toolbar {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  padding: 34px;
  
 }
 
@@ -74,7 +74,35 @@ img {
      body {
       orientation : landscape;
      }
-     }
+     
+     li {
+      font-size: 32px;
+    }
+    .Game__location {
+      font-size: 96px;}
+      
+    .Game__toolbar {
+    padding: 24px;
+}
+
+  .Conversation__text {
+    font-size: 40px; }
+ 
+  .Conversation {
+  border: 16px solid #2a1b3d;
+  border-radius: 120px;}
+
+  .Game__toolbar-restart {
+    padding: 8px;
+    height: 60px;
+    width: 60px;
+  }
+
+  .HappinessMetre {
+    height: 60px;
+    width: 60px;
+}
+}
 
 /*monitor*/
 @media (min-width: 1025px) and (max-width: 1920px) {
@@ -126,15 +154,13 @@ img {
 
 .Conversation__button-arrow {
    right: 32px;
-   bottom: 180px;
-   width: 128px;
-   height: 128px;
-   border: 16px rgb(11, 11, 11) solid;
+   bottom: 88px;
+   width: 104px;
+   height: 104px;
+   border: 8px rgb(11, 11, 11) solid;
 }
 
 li {
- color: #591978;
- font-family: 'VT323', monospace;
  font-size: 20px;
 }
 }
@@ -188,15 +214,23 @@ li {
 
 .Conversation__button-arrow {
     right: 48px;
-    bottom: 180px;
+    bottom: 128px;
     width: 160px;
     height: 160px;
     border: 16px rgb(11, 11, 11) solid;
 }
 
 li {
-  color: #591978;
-  font-family: 'VT323', monospace;
   font-size: 36px;
+}
+.Game__toolbar-restart {
+  padding: 8px;
+  height: 64px;
+  width: 64px;
+}
+
+.HappinessMetre {
+  height: 64px;
+  width: 64px;
 }
 }
