@@ -223,7 +223,7 @@ a {
   }
 
   #title--intro {
-    font-size: 300px;
+    font-size: 168px;
   }
   #intro {
     display: flex;
@@ -231,18 +231,18 @@ a {
     align-items: center;
   }
   .title {
-    font-size: 300px;
+    font-size: 168px;
     text-shadow: 10px 10px 20px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
   }
   .trip {
     color: aliceblue;
     text-align: right;
-    font-size: 120px;
+    font-size: 80px;
     text-shadow: 10px 10px 20px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
   }
 
   .parpadea {
-    font-size: 96px;
+    font-size: 80px;
   }
   #intro {
     display: flex;

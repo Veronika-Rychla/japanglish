@@ -20,7 +20,7 @@ img {
   text-align: center;
   text-shadow: 5px 5px 8px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
   font-size: 48px;
-  margin-bottom: 10px;
+  margin-bottom: 3px;
 }
 
 .Game__character {
@@ -80,21 +80,16 @@ img {
       text-shadow: 8px 8px 24px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
     }
     .Game__character {
+      flex-basis: 45%;
+    }
+    .Conversation {
       flex-basis: 33%;
-    }
-    .Conversation {
-      flex-basis: 38%;
-    }
-
-    .Conversation {
-      flex-basis: 38%;
-    
     }
     
     .Game__toolbar-restart {
-     padding: 24px;
-     height: 104px;
-     width: 104px;
+     padding: 16px;
+     height: 88px;
+     width: 88px;
    }
    img {
      height: 100%;
@@ -102,17 +97,17 @@ img {
      object-fit: contain;
    }
    .HappinessMetre {
-     height: 104px;
-     width: 104px;
+     height: 88px;
+     width: 88px;
  }
  .Conversation__text {
-   font-size: 48px;
+   font-size: 36px;
    text-shadow: 8px 8px 16px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
 }
 
 .Conversation {
  padding: 40px;
- margin: 48px;
+ margin: 0 38px 38px 38px;
  border: 16px solid #2a1b3d;
  box-shadow: 24px 24px 16px #c009585e;
  border-radius: 148px;
@@ -144,22 +139,21 @@ li {
        flex-basis: 10%;
      }
      .Game__location {
-       flex-basis: 15%;
+       flex-basis: 10%;
        font-size: 124px;
        text-shadow: 8px 8px 24px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
      }
      .Game__character {
-       flex-basis: 33%;
-     }
-     .Conversation {
-       flex-basis: 38%;
-     
-     }
+      flex-basis: 45%;
+    }
+    .Conversation {
+      flex-basis: 33%;
+    }
      
      .Game__toolbar-restart {
       padding: 24px;
-      height: 124px;
-      width: 124px;
+      height: 96px;
+      width: 96px;
     }
     img {
       height: 100%;
@@ -167,17 +161,17 @@ li {
       object-fit: contain;
     }
     .HappinessMetre {
-      height: 124px;
-      width: 124px;
+      height: 96px;
+      width: 96px;
   }
   .Conversation__text {
-    font-size: 72px;
+    font-size: 36px;
     text-shadow: 8px 8px 16px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
 }
 
 .Conversation {
   padding: 48px;
-  margin: 64px;
+  margin: 0 38px 38px 38px;
   border: 24px solid #2a1b3d;
   box-shadow: 24px 24px 16px #c009585e;
   border-radius: 148px;
@@ -195,6 +189,6 @@ li {
 li {
   color: #591978;
   font-family: 'VT323', monospace;
-  font-size: 56px;
+  font-size: 36px;
 }
 }
