@@ -1,5 +1,23 @@
 .GameOver {
-  background-color: black;
   font-family: 'Press Start 2P', cursive;
   color: rgb(247, 244, 247);
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
 }
+
+body {
+  margin: 0;
+  background-color: black;
+  background-image: none;
+  }
+ 
+  span {
+    background-color: black;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: flex;
+  }
