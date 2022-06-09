@@ -1,4 +1,4 @@
-.GameOver--text {
+.GameOver__selected {
   font-family: 'Press Start 2P', cursive;
   color: rgb(247, 244, 247);
 
@@ -29,7 +29,7 @@ body {
   align-items: center;
   }
 
-  .GameOver--restart {
+  .GameOver--button {
     margin: 24px;
 
   }
