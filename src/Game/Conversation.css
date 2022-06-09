@@ -4,9 +4,9 @@
      margin: 0 16px 40px 16px; 
      border: 8px solid #2a1b3d;
      border-radius: 80px;
-     box-shadow: 10px 10px 5px #c009585e;
+     box-shadow: 16px 16px 8px #c009585e;
      max-height: 60%;
-     overflow: auto;
+     overflow: auto hidden; 
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -18,7 +18,7 @@
 .Conversation__text {
      color: #591978;
      font-family: 'VT323', monospace;
-     font-size: 20px;
+     font-size: 24px;
      text-shadow: 1px 1px 2px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
 }
 
@@ -27,22 +27,22 @@
      cursor: pointer;
      border: 4px solid #2a1b3d;
      border-radius: 80px;
-     box-shadow: 0 10px 0 0 #c009585e;
-     text-shadow: 1px 1px 2px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
+     box-shadow: 0 16px 0 0 #c009585e;
+     text-shadow: 8px 8px 16px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
 }
 
 /*button wit arrow*/
 @keyframes float {
 	0% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		box-shadow: 0 8px 16px 0px rgba(0,0,0,0.6);
 		transform: translatey(0px);
 	}
 	50% {
-		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		box-shadow: 0 24px 16px 0px rgba(0,0,0,0.2);
 		transform: translatey(-20px);
 	}
 	100% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		box-shadow: 0 8px 16px 0px rgba(0,0,0,0.6);
 		transform: translatey(0px);
 	}
 }
@@ -57,13 +57,13 @@
      position: fixed;
      bottom: 20%;
      right: 8px;
-     width: 50px;
-	height: 50px;
+     width: 48px;
+	height: 48px;
 	box-sizing: border-box;
-	border: 5px rgb(11, 11, 11) solid;
+	border: 8px rgb(11, 11, 11) solid;
 	border-radius: 50%;
 	overflow: hidden;
-	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	box-shadow: 0 8px 16px 0px rgba(0,0,0,0.6);
 	transform: translatey(0px);
 	animation: float 5s ease-in-out infinite;
      background-image: url(./right-arrow.png);
@@ -76,7 +76,7 @@
 li {
      color: #591978;
      font-family: 'VT323', monospace;
-     font-size: 20px;
+     font-size: 16px;
      text-shadow: 8px 8px 16px #f6f6f6, 0 0 1em #792f79, 0 0 0.2em #f9f3f95e;
      text-transform: uppercase;
      text-align: center;

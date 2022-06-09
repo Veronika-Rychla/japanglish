@@ -6,10 +6,10 @@ export const GameOver = () => {
   return (
     <>
       <span>
-        <div className='GameOver'>
-      <div className="GameOver--text">You were killed by a shinkansen!</div>
+        <div className='Canva'>
+      <div className="GameOver__selected">You were killed by a shinkansen!</div>
       <div><img
-        className="Game__toolbar-restart GameOver--restart"
+        className="Game__toolbar-restart GameOver--button"
         alt="restart"
         src="/restart.svg"
         width={50}

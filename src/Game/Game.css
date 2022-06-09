@@ -14,6 +14,11 @@
 img {
   filter: drop-shadow(8px 8px 16px black)
 }
+
+img:hover {
+    transform: scaleX(-1);
+  }
+
 .Game__location {
   font-family: 'Bangers', cursive;
   color: aliceblue;
@@ -84,7 +89,7 @@ img {
 }
 
   .Conversation__text {
-    font-size: 40px; }
+    font-size: 24px; }
  
   .Conversation {
   border: 16px solid #2a1b3d;
