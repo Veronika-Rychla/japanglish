@@ -18,7 +18,13 @@ export const gameConfig = {
       music: "/music/trainstation.mp3",
       conversation: [
         {
-          text: "Charlie arrives in Tokyo, dead tired and jet-lagged. He can't read any signs and people are reluctant to talk to him so he starts questioning his resolve for this exchange trip. His teacher claimed that the Japanese study English as a compulsory subject but Charlie suspects he was deceived.",
+          text: "Charlie arrives in Tokyo, dead tired and jet-lagged. He can't read any signs and people are reluctant to talk to him so he starts questioning his resolve for this exchange trip.",
+          type: "description",
+          character: "",
+          mood: "",
+        },
+        {
+          text: "His teacher claimed that the Japanese study English as a compulsory subject but Charlie suspects he was deceived.",
           type: "description",
           character: "",
           mood: "",
