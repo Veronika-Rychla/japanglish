@@ -1,10 +1,7 @@
-.GameOver {
+.GameOver--text {
   font-family: 'Press Start 2P', cursive;
   color: rgb(247, 244, 247);
-  display: block;
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
+
 }
 
 body {
@@ -19,4 +16,20 @@ body {
     height: 100vh;
     object-fit: cover;
     display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .GameOver {
+    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .GameOver--restart {
+    margin: 24px;
+
   }

@@ -6,9 +6,10 @@ export const GameOver = () => {
   return (
     <>
       <span>
-      <div className="GameOver">You were killed by a shinkansen!</div>
+        <div className='GameOver'>
+      <div className="GameOver--text">You were killed by a shinkansen!</div>
       <div><img
-        className="Game__toolbar-restart"
+        className="Game__toolbar-restart GameOver--restart"
         alt="restart"
         src="/restart.svg"
         width={50}
@@ -16,6 +17,7 @@ export const GameOver = () => {
         onClick={() => window.location.reload()}
         
       />
+      </div>
       </div>
       </span>
     </>
