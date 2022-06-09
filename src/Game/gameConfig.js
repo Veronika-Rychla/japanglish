@@ -298,19 +298,51 @@ export const gameConfig = {
           ],
         },
         {
-          text: "フライドポテト? サラダ? サンドイッチ?",
+          text: "フライドポテト? ",
           type: "dialogue",
           character: "Hanako",
           mood: "hanako_excited.png",
         },
         {
-          text: "Fraido potato - Sarada - Sandoicchi",
+          text: "Fraido potato",
           type: "quiz",
           options: [
-            { option: "potato croquette - lettuce - toast bread" },
-            { option: "filled dumplings - salad - sunny-side eggs" },
-            { option: "chips - salsa - scrambled eggs" },
-            { option: "Chips - salad - sandwich", correct: true },
+            { option: "Potato croquette" },
+            { option: "Filled dumplings" },
+            { option: "Mashed potatoes" },
+            { option: "Chips", correct: true },
+          ],
+        },
+        {
+          text: " サラダ?",
+          type: "dialogue",
+          character: "Hanako",
+          mood: "hanako_excited.png",
+        },
+        {
+          text: "Sarada",
+          type: "quiz",
+          options: [
+            { option: "Lettuce" },
+            { option: "Salad", correct: true },
+            { option: "Sardines" },
+            { option: "Salary? Now?" },
+          ],
+        },
+        {
+          text: " サンドイッチ?",
+          type: "dialogue",
+          character: "Hanako",
+          mood: "hanako_excited.png",
+        },
+        {
+          text: "Sandoicchi",
+          type: "quiz",
+          options: [
+            { option: "Toast bread" },
+            { option: "Sunny-side eggs" },
+            { option: "Sand? We are going to the beach?" },
+            { option: "Sandwich", correct: true },
           ],
         },
         {

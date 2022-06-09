@@ -12,7 +12,7 @@
      align-items: center;
      align-content: center;
      justify-content: center;
-     flex-grow: 1;
+     flex-basis: 33%;
 }
 
 .Conversation__text {
@@ -26,7 +26,6 @@
      background: linear-gradient(30deg, #2a1b3dbf, #f8f3f4);
      cursor: pointer;
      border: 4px solid #2a1b3d;
-     padding: 5px;
      border-radius: 80px;
      box-shadow: 0 10px 0 0 #c009585e;
      text-shadow: 1px 1px 2px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
