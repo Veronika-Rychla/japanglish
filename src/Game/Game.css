@@ -70,7 +70,9 @@ img {
   
      .media {
           background-color: rgb(238, 255, 0)
-     } 
+     }
+    
+     
      li {
       font-size: 32px;
     }
@@ -111,7 +113,7 @@ img {
     }
     .Game__location {
       flex-basis: 10%;
-      font-size: 62px;
+      font-size: 48px;
       text-shadow: 8px 8px 24px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
     }
     .Game__character {
@@ -134,7 +136,7 @@ img {
      width: 64px;
  }
  .Conversation__text {
-   font-size: 40px;
+   font-size: 24px;
    text-shadow: 8px 8px 16px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
 }
 
@@ -157,7 +159,7 @@ img {
 }
 
 li {
- font-size: 40px;
+ font-size: 20px;
 }
 }
  
