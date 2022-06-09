@@ -43,9 +43,18 @@ img {
   background-color: #2a1b3d;
   border-radius: 25%;
   padding: 5px 7px 7px 5px;
+  height: 60px;
+    width: 60px;
   
 }
-
+.Game__character {
+  flex-basis: 40%;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
 
 /*phone*/
 @media (max-width: 600px) {
@@ -62,7 +71,9 @@ img {
      .media {
           background-color: rgb(238, 255, 0)
      }
-     
+     body {
+      orientation : landscape;
+     }
      }
 
 /*monitor*/
@@ -80,11 +91,9 @@ img {
       text-shadow: 8px 8px 24px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
     }
     .Game__character {
-      flex-basis: 45%;
+      flex-basis: 60%;
     }
-    .Conversation {
-      flex-basis: 33%;
-    }
+   
     
     .Game__toolbar-restart {
      padding: 16px;
@@ -144,11 +153,9 @@ li {
        text-shadow: 8px 8px 24px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
      }
      .Game__character {
-      flex-basis: 45%;
+      flex-basis: 60%;
     }
-    .Conversation {
-      flex-basis: 33%;
-    }
+
      
      .Game__toolbar-restart {
       padding: 24px;
