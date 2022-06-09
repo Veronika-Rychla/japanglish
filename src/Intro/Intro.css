@@ -147,7 +147,7 @@ a {
 }
 .nav--icon {
   background-color: #3f0249;
-  padding: 5px;
+  padding: 8px;
   border-radius: 25%;
 }
 /*how to play*/
@@ -157,7 +157,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 8px 0px 8px;
   display: flex;
   flex: column;
 }
@@ -232,13 +232,13 @@ a {
   }
   .title {
     font-size: 168px;
-    text-shadow: 10px 10px 20px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+    text-shadow: 16px 16px 24px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
   }
   .trip {
     color: aliceblue;
     text-align: right;
     font-size: 80px;
-    text-shadow: 10px 10px 20px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+    text-shadow: 8px 8px 24px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
   }
 
   .parpadea {
@@ -253,7 +253,7 @@ a {
 
 #charlie--img {
   background-image: url(./img/chibi/charlie_neutral.png);
-  width: 100px;
+  width: 104px;
   height: 120px;
 
 }
@@ -261,7 +261,7 @@ a {
 
 #hanako--img {
   background-image: url(./img/chibi/hanako_neutral.png);
-  width: 100px;
+  width: 104px;
   height: 120px;
 }
 
@@ -269,7 +269,7 @@ p {
   color: #591978;
   text-shadow: #000000;
   font-family: 'VT323', monospace;
-  font-size: 20px;
+  font-size: 24px;
   text-shadow: 1px 1px 2px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
 }
 
@@ -307,15 +307,15 @@ p {
 /*button wit arrow*/
 @keyframes float {
   0% {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.6);
     transform: translatey(0px);
   }
   50% {
-    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 24px 16px 0px rgba(0, 0, 0, 0.2);
     transform: translatey(-20px);
   }
   100% {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 8px 15px 0px rgba(0, 0, 0, 0.6);
     transform: translatey(0px);
   }
 }
@@ -332,13 +332,13 @@ p {
 }
 
 .avatar {
-  width: 50px;
-  height: 100px;
+  width: 56px;
+  height: 104px;
   box-sizing: border-box;
-  border: 5px rgb(11, 11, 11) solid;
+  border: 8px rgb(11, 11, 11) solid;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.6);
   transform: translatey(0px);
   animation: float 5s ease-in-out infinite;
   background-image: url(img/right-arrow.png);
@@ -352,7 +352,7 @@ p {
   margin: 0%;
 }
 .content {
-  padding-top: 50px;
+  padding-top: 54px;
 }
 
 .avatar2 {
@@ -389,11 +389,11 @@ p {
   box-shadow: 1px 1px 2px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
   background-color: #591978;
   border-radius: 25%;
-  padding: 5px;
+  padding: 8px;
 }
 
 .media {
-  height: 30px;
+  height: 32px;
 }
 
 /*heroes*/
@@ -407,15 +407,15 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0px 20px 0px 20px;
+  margin: 0px 24px 0px 24px;
 }
 
 h1 {
   font-family: 'Bangers', cursive;
   color: aliceblue;
-  text-shadow: 5px 5px 8px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+  text-shadow: 8px 8px 16px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
   font-size: 64px;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
 p {
@@ -427,7 +427,7 @@ p {
 }
 
 .title {
-  padding-top: 20px;
+  padding-top: 16px;
 }
 .heroes {
   display: flex;
@@ -453,7 +453,7 @@ p {
   background-repeat: no-repeat;
   background-position: left;
   background-size: contain;
-  border-radius: 10px;
+  border-radius: 16px;
   padding: 3%;
   margin: 1%;
   border: 10px solid #2a1b3d;
@@ -464,21 +464,21 @@ p {
 /*button wit arrow*/
 @keyframes float {
   0% {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.6);
     transform: translatey(0px);
   }
   50% {
-    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 24px 16px 0px rgba(0, 0, 0, 0.2);
     transform: translatey(-20px);
   }
   100% {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.6);
     transform: translatey(0px);
   }
 }
 
 .media {
-  height: 30px;
+  height: 32px;
 }
 
 
@@ -490,23 +490,23 @@ p {
     font-size: 64px;
   }
   .trip {
-    font-size: 18px;
+    font-size: 16px;
   }
   .media {
     background-color: rgb(255, 55, 0);
   }
   p {
-    font-size: 18px;
+    font-size: 16px;
   }
   h5 {
-    font-size: 20px;
+    font-size: 24px;
   }
   a {
-    font-size: 18px;
-    margin-top: 5px;
+    font-size: 16px;
+    margin-top: 8px;
   }
   .char__text {
-    font-size: 18px;
+    font-size: 16px;
   }
  
   .char__img {
@@ -526,7 +526,7 @@ p {
   .title {
     font-size: 64px;
 
-    text-shadow: 5px 5px 8px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+    text-shadow: 8px 8px 16px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
   }
   .trip {
     font-size: 24px;
@@ -536,7 +536,7 @@ p {
     background-color: rgb(238, 255, 0);
   }
   p {
-    font-size: 23px;
+    font-size: 24px;
   }
 
   h5 {
@@ -558,13 +558,13 @@ p {
   }
   .title {
     font-family: 'Bangers', cursive;
-    text-shadow: 5px 5px 8px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+    text-shadow: 8px 8px 16px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
     font-size: 64px;
   }
 
   p {
     font-size: 24px;
-    text-shadow: 5px 5px 8px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
+    text-shadow: 8px 8px 16px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
   }
   .heroes {
     display: flex;
@@ -574,18 +574,18 @@ p {
     align-content: center;
   }
   .container {
-    height: 150px;
+    height: 152px;
     align-items: flex-end;
     justify-content: center;
   }
   .avatar {
-    width: 100px;
+    width: 104px;
     height: 200px;
     box-sizing: border-box;
-    border: 10px rgb(11, 11, 11) solid;
+    border: 16px rgb(11, 11, 11) solid;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 15px 25px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 16px 24px 0px rgba(0, 0, 0, 0.6);
   }
   .char {
     display: flex;
@@ -610,22 +610,22 @@ p {
   }
   .title {
     color: aliceblue;
-    text-shadow: 5px 5px 8px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+    text-shadow: 8px 8px 16px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
     font-size: 96px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
   p {
     color: #591978;
     text-shadow: #000000;
-    font-size: 50px;
-    text-shadow: 5px 5px 8px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
+    font-size: 48px;
+    text-shadow: 8px 8px 16px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
   }
 
   #charlie--img {
     background-image: url(./img/chibi/charlie_neutral.png);
     width: 200px;
-    height: 350px;
+    height: 344px;
   
   }
   
@@ -633,7 +633,7 @@ p {
   #hanako--img {
     background-image: url(./img/chibi/hanako_neutral.png);
     width: 200px;
-    height: 350px;
+    height: 344px;
   }
 }
 
@@ -649,7 +649,7 @@ p {
 /*super monitor*/
 @media (min-width: 1920px) {
   h1 {
-    font-size: 140px;
+    font-size: 144px;
   }
   body {
     padding: 5%;
@@ -659,7 +659,7 @@ p {
     flex-direction: row;
   }
   .container {
-    height: 150px;
+    height: 156px;
     align-items: flex-end;
   }
   .char {
@@ -667,13 +667,13 @@ p {
     flex-direction: row;
   }
   .avatar {
-    width: 100px;
+    width: 104px;
     height: 200px;
     box-sizing: border-box;
-    border: 10px rgb(11, 11, 11) solid;
+    border: 8px rgb(11, 11, 11) solid;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 15px 25px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 16px 24px 0px rgba(0, 0, 0, 0.6);
   }
   .media {
     background-color: rgb(0, 38, 255);
@@ -686,12 +686,12 @@ p {
     align-content: center;
   }
   p {
-    font-size: 50px;
+    font-size: 48px;
   }
 
   .char__img {
     width: 200px;
-    height: 250px;
+    height: 248px;
   }
 
   h5 {
