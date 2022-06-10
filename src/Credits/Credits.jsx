@@ -27,11 +27,11 @@ export const Credits = () => {
                    <h2>Developers</h2>
                      <div className='div__people'>
                         <h4>Veronika Rychlá</h4> 
-                        <p>JavaScript & React</p>
+                        <h7>JavaScript & React</h7>
                      </div>
                      <div className="div__people">
                        <h4>Bára Ševčíková</h4> 
-                       <p>UX design & CSS</p>
+                       <h7>HTML/CSS & UX/IX</h7>
                      </div>
                   
                <div className="persons--div" id="mentors">
@@ -46,7 +46,7 @@ export const Credits = () => {
                     <h2>Artist</h2>
                     <div className='div__people'>
                   <h4>Nikol Schirová </h4>
-                 <p>character design</p>
+                 <h7>character design</h7>
                  </div>
                </div>
 
