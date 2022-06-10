@@ -26,12 +26,18 @@ body{
   margin-bottom: 8px;
 }
 .HappinessHeart {
-  background-image: url(/public/happinessMetre/heart100.png);
   background-size: cover;
   width: 40px;
   height: 40px;
 }
 
+#HappinessHeart1 {
+  background-image: url(/public/chibi/Charlie_happy.png);
+}
+
+#HappinessHeart2 {
+  background-image: url(/public/chibi/Hanako_happy.png);
+}
 .credits {
 display: flex;
 flex-direction: column;
