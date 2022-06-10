@@ -15,6 +15,7 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  background-color: #000000;
 }
 .title__text {
   font-family: 'Bangers', cursive;
@@ -67,7 +68,7 @@ h4 {
   display:flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(/public/background/cityDay.jpg);
+  background-image: url(/public/background/cityNight.jpg);
   animation-name: dayNight;
   animation-duration: 3s;
   width: 100%;
@@ -95,4 +96,64 @@ h4 {
 }
 .Credits {
   color: violet;
+}
+
+.facebook, .linkedin, .github {
+  width: 32px;
+  height: 32px;
+  filter: invert(100%);
+  background-size: cover;
+}
+
+.facebook {
+  background-image: url(/public/icons/facebook.png);
+}
+
+.linkedin {
+  background-image: url(/public/icons/linkedin.png);
+}
+
+.github {
+  background-image: url(/public/icons/github.png);
+}
+
+.credits--contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.contact--title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.contact--content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.content--personal {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+.personal__name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.name__icon {
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+h6 {
+  color: #f6f3f3;
 }

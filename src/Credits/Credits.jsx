@@ -52,32 +52,45 @@ export const Credits = () => {
 
              </div>
              </div>
+
            <div className='credits--contact'>
-             <h2>Kontakty</h2>
-             <div className='conatct__person' id="conatct__game">
-               <h2>Game</h2>
-                <div className='socialMedia'>
-                  facebook github pages
-                </div>
-                </div>
-             <div className='conatct__person' id="conatct__verca">
-               <h2>Veča</h2>
-                <div className='socialMedia'>
-                  linked github 
-                </div>
-                </div>
-                <div className='conatct__person' id="conatct__barca">
-               <h2>Barča</h2>
-                <div className='socialMedia'>
-                  linked github 
-                </div>
-                </div>
-              <div className='city'>
-                <div className='charlie'></div>
-                <div className='hanako'></div>
-              </div>
-              </div>
-             </div> 
+             <div className='contact--title'>
+               <h4>Contact</h4>
+             </div>
+             <div className='contact--content'>
+               <div className='content--game'>
+                 <div className='game__title'>
+                   <h5>Game</h5>
+                 </div>
+                 <div className='game__facebook'>
+                   <div className='facebook'></div>
+                 </div>
+               </div>
+               <div className='content--personal'>
+                 <div className='personal__name'>
+                   <div className='name__nick'> <h6>Verča</h6></div>
+                   <div className='name__icon'>
+                     <div className='github'></div>
+                     <div className='linkedin'></div>
+                   </div>
+                 </div>
+                 <div className='personal__name'>
+                   <div className='name__nick'><h6>Barča</h6></div>
+                   <div className='name__icon'>
+                     <div className='github'></div>
+                     <div className='linkedin'></div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+              
+            </div>
+        
+        
+        </div>      
+              
+            
+             
     </>
   );
 };
