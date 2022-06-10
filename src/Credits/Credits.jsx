@@ -55,7 +55,7 @@ export const Credits = () => {
 
            <div className='credits--contact'>
              <div className='contact--title'>
-               <h4>Contact</h4>
+               <h2>Contact</h2>
              </div>
              <div className='contact--content'>
                <div className='content--game'>
