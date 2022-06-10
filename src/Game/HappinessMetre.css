@@ -12,3 +12,15 @@
      animation: taadaa 3s infinite;
      animation-direction: alternate;
 }
+
+
+#HappinessHeart:hover {
+  animation-name: rotate ;
+  animation-duration: 1s;
+  animation-iteration-count: 3;
+}
+
+@keyframes rotate {
+  0% {transform:rotate(-0.01)}
+  100% {transform:rotate(-1turn)}
+}

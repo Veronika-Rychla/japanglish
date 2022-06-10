@@ -5,7 +5,7 @@ import './HappinessMetre.css';
 export const HappinessMetre = (props) => {
   const { happiness } = props;
   return (
-    <div className="HappinessMetre">
+    <div className="HappinessMetre" id="HappinessHeart">
       <img
         alt={`Happiness metre ${happiness}`}
         src={`/happinessMetre/heart${happiness}.png`}
