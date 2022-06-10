@@ -1,7 +1,7 @@
 html {
   display: block;
 }
-body{
+body {
   padding: 0%;
   margin: 0%;
   width: 100%;
@@ -11,7 +11,7 @@ body{
   overflow: scroll;
 }
 .header {
-  margin:0%;
+  margin: 0%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -33,29 +33,29 @@ body{
 }
 
 .credits {
-display: flex;
-flex-direction: column;
-background-color: #000000;
-padding-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  padding-bottom: 32px;
 }
 
 #credits--bubble {
   margin-bottom: 8px;
   box-shadow: none;
 }
-/* crdits--persons*/
+/* credits--persons*/
 h2 {
   font-family: 'Bangers', cursive;
-  color: #D9D9D9;
-    text-shadow: #000000;
-    font-size: 24px;
-    text-shadow: 1px 1px 2px #060505, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
+  color: #d9d9d9;
+  text-shadow: #000000;
+  font-size: 24px;
+  text-shadow: 1px 1px 2px #060505, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
 }
-h3{
+h3 {
   font-family: 'Bangers', cursive;
-  color:#3f0249;
-    font-size: 16px;
-    text-shadow: 1px 1px 2px #f6f3f3, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
+  color: #3f0249;
+  font-size: 16px;
+  text-shadow: 1px 1px 2px #f6f3f3, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
 }
 
 h4 {
@@ -73,7 +73,7 @@ h7 {
 }
 
 .credits--persons {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   background-image: url(/public/background/cityNight.jpg);
@@ -84,8 +84,12 @@ h7 {
 }
 
 @keyframes dayNight {
-  0%   {background-image: url(/public/background/cityDay.jpg)}
-  100%  {background-image: url(/public/background//cityNight.jpg)}
+  0% {
+    background-image: url(/public/background/cityDay.jpg);
+  }
+  100% {
+    background-image: url(/public/background//cityNight.jpg);
+  }
 }
 
 .persons--div {
@@ -101,13 +105,14 @@ h7 {
   margin: 8px;
   gap: 16px;
   align-items: center;
-
 }
 .Credits {
   color: violet;
 }
 
-.facebook, .linkedin, .github {
+.facebook,
+.linkedin,
+.github {
   width: 32px;
   height: 32px;
   filter: invert(100%);
@@ -159,7 +164,7 @@ h7 {
   width: 100%;
 }
 .name__icon {
-  display:flex;
+  display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-evenly;
@@ -169,16 +174,8 @@ h6 {
   font-size: 16px;
 }
 
-
 .name__nick {
-  text-shadow:
-  0 0 5px #fff,
-  0 0 10px #fff,
-  0 0 20px #fff,
-  0 0 40px #0ff,
-  0 0 80px #0ff,
-  0 0 90px #0ff,
-  0 0 100px #0ff,
-  0 0 150px #0ff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff,
+    0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
   font-size: 16px;
 }
