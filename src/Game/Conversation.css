@@ -14,6 +14,9 @@
      justify-content: center;
      flex-basis: 33%;
 }
+#credits--bubble {
+     margin-bottom:0%;
+}
 
 .Conversation__text {
      color: #591978;

@@ -8,13 +8,13 @@ export const Credits = () => {
       <div className="HappinessHeart" id="HappinessHeart1">
       </div>
       <div className="header--title">
-        <h1>Credits</h1>
+        <p className="title__text">Credits</p>
       </div>
       <div className="HappinessHeart" id="HappinessHeart2">
       </div>
     </header>
     <div className="credits">
-        <div className='credits--bubble Conversation .Conversation__text'>
+        <div className='Conversation .Conversation__text' id="credits--bubble">
           <h3> Thanks for playing!</h3>
           <p>This game was originally created as our final course
            project for Digital Academy: Web organized by Czechitas but it gradually
@@ -22,28 +22,36 @@ export const Credits = () => {
             which we hope to keep developing further</p>
         </div>
           <div className='credits--persons'>
-               <div className='persons__developers'>
+
+               <div className="persons--div" id="developers">
                    <h2>Developers</h2>
-                     <div className='verca'></div>
+                     <div className='div__people'>
                         <h4>Veronika Rychlá</h4> 
                         <p>JavaScript & React</p>
                      </div>
-                     <div className='barca'></div>
+                     <div className="div__people">
                        <h4>Bára Ševčíková</h4> 
                        <p>UX design & CSS</p>
                      </div>
-                 </div>
-               <div className="persons__mentors">
+                  
+               <div className="persons--div" id="mentors">
                     <h2>Mentors</h2>
+                    <div className='div__people'>
                      <h4>Ondřej Staněk</h4>
                      <h4>Albert Soriano</h4>
+                     </div>
                  </div>
-               <div className='persons__artist'>
+
+               <div className="persons--div" id="artist">
                     <h2>Artist</h2>
+                    <div className='div__people'>
                   <h4>Nikol Schirová </h4>
                  <p>character design</p>
+                 </div>
                </div>
-               
+
+             </div>
+             </div>
            <div className='credits--contact'>
              <h2>Kontakty</h2>
              <div className='conatct__person' id="conatct__game">
@@ -68,7 +76,7 @@ export const Credits = () => {
                 <div className='charlie'></div>
                 <div className='hanako'></div>
               </div>
-
+              </div>
              </div> 
     </>
   );

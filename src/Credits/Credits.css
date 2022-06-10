@@ -1,24 +1,97 @@
+html {
+  display: block;
+}
 body{
   padding: 0%;
   margin: 0%;
   width: 100%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
 }
 .header {
   margin:0%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
 }
-
+.title__text {
+  font-family: 'Bangers', cursive;
+  color: aliceblue;
+  text-shadow: 8px 8px 16px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
+  font-size: 40px;
+  margin-bottom: 8px;
+}
 .HappinessHeart {
   background-image: url(/public/happinessMetre/heart100.png);
   background-size: cover;
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
 }
 
-#HappinessHeart1 {
-  display:none;
+.credits {
+display: flex;
+flex-direction: column;
+background-color: #000000;
+
+
+}
+
+#credits--bubble {
+  margin-bottom: 16px;
+}
+/* crdits--persons*/
+h2 {
+  font-family: 'Bangers', cursive;
+  color: #aea6b3;
+    text-shadow: #000000;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px #060505, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
+}
+h3{
+  font-family: 'Bangers', cursive;
+  color:#3f0249;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px #f6f3f3, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
+}
+
+h4 {
+  font-family: 'VT323', monospace;
+  color: aliceblue;
+  font-size: 24px;
+  text-shadow: 1px 1px 2px #110808, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
+}
+
+.credits--persons {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/public/background/cityDay.jpg);
+  animation-name: dayNight;
+  animation-duration: 3s;
+  width: 100%;
+}
+
+@keyframes dayNight {
+  0%   {background-image: url(/public/background/cityDay.jpg)}
+  100%  {background-image: url(/public/background//cityNight.jpg)}
+}
+
+.persons--div {
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div__people {
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+  gap: 16px;
+  align-items: center;
+
 }
 .Credits {
   color: violet;
