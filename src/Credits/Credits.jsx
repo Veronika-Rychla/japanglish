@@ -69,11 +69,15 @@ export const Credits = () => {
               <div className="personal__name">
                 <div className="name__nick">
                   {' '}
-                  <h6>Verča</h6>
+                  <h6>Veronika</h6>
                 </div>
                 <div className="name__icon">
-                  <div className="github"></div>
-                  <div className="linkedin"></div>
+                  <a href="https://github.com/Veronika-Rychla">
+                    <div className="github"></div>
+                  </a>
+                  <a href="https://www.linkedin.com/in/veronika-rychl%C3%A1-084226187/">
+                    <div className="linkedin"></div>
+                  </a>
                 </div>
               </div>
               <div className="personal__name">
