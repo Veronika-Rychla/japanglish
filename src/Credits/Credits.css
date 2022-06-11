@@ -152,14 +152,14 @@ h7 {
 }
 .contact--content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   width: 100%;
 }
 
 .content--personal {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
   justify-content: space-around;
 }
@@ -180,8 +180,54 @@ h6 {
   font-size: 16px;
 }
 
-.name__nick {
+.personal__name {
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff,
     0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
   font-size: 16px;
+}
+
+/*phone*/
+@media (max-width: 600px) {
+ 
+  .media {
+    background-color: rgb(255, 55, 0);
+  }
+
+}
+/*tablet*/
+@media (min-width: 601px) and (max-width: 1024px) {
+
+  .media {
+    background-color: rgb(238, 255, 0);
+  }
+  p {
+    font-size: 24px;
+  }
+
+  h5 {
+    font-size: 24px;
+  }
+}
+
+/*monitor*/
+@media (min-width: 1024px) and (max-width: 1920px) {
+  .media {
+    background-color: rgb(13, 255, 0);
+}
+}
+
+
+/*super monitor*/
+@media (min-width: 1920px) {
+  h1 {
+    font-size: 144px;
+  }
+  body {
+    padding: 5%;
+  }
+
+  .media {
+    background-color: rgb(0, 38, 255);
+  }
+
 }

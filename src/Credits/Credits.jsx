@@ -53,44 +53,54 @@ export const Credits = () => {
         </div>
 
         <div className="credits--contact">
+
           <div className="contact--title">
             <h2>Contact</h2>
           </div>
+
           <div className="contact--content">
-            <div className="content--game">
-              <div className="game__title">
-                <h5>Game</h5>
-              </div>
-              <div className="game__facebook">
-                <div className="facebook"></div>
-              </div>
-            </div>
+
             <div className="content--personal">
               <div className="personal__name">
-                <div className="name__nick">
-                  
-                  <h6>Veronika</h6>
-                </div>
+                <h6>Game</h6>
+              </div>
+              <div className="name__icon">
+                <a href='https://www.facebook.com/Japanglishgame' target="_blank">
+                <div className="facebook"></div>
+                </a>
+              </div>
+            </div>
+
+            <div className="content--personal">
+                  <div className="personal__name">
+                    <h6>Veronika</h6>
+                 </div>
                 <div className="name__icon">
-                  <a href="https://github.com/Veronika-Rychla">
+                    <a href="https://github.com/Veronika-Rychla">
                     <div className="github"></div>
-                  </a>
-                  <a href="https://www.linkedin.com/in/veronika-rychl%C3%A1-084226187/">
+                    </a>
+                  < a href="https://www.linkedin.com/in/veronika-rychl%C3%A1-084226187/">
                     <div className="linkedin"></div>
                   </a>
                 </div>
               </div>
-              <div className="personal__name">
-                <div className="name__nick">
-                  <h6>Barča</h6>
+            
+
+              <div className="content--personal">
+                <div className="personal__name">
+                  <h6>Bára</h6>
                 </div>
                 <div className="name__icon">
-                  <div className="github"></div>
+                  <a href='https://github.com/ronwain'>
+                  <div className="github"></div> 
+                  </a>
+                  <a href='https://www.linkedin.com/in/barca-sevcikova-046976229/'>
                   <div className="linkedin"></div>
+                  </a>
                 </div>
               </div>
             </div>
-          </div>
+          
         </div>
       </div>
     </>
