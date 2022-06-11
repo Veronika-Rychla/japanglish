@@ -30,8 +30,8 @@
      cursor: pointer;
      border: 4px solid #2a1b3d;
      border-radius: 80px;
-     box-shadow: 0 16px 0 0 #c009585e;
-     text-shadow: 8px 8px 16px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
+     text-shadow: 8px 8px 16px #edecec, 0 0 1em #edecec, 0 0 0.2em #f4eef45e;
+     margin-bottom: 8px;
 }
 
 /*button wit arrow*/
