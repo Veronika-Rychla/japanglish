@@ -8,7 +8,7 @@ export const Credits = () => {
       <header className="header">
         <div className="HappinessHeart" id="HappinessHeart1"></div>
         <div className="header--title">
-          <p className="title__text">Credits</p>
+          <h1 className="title__text" id="credits__title">Credits</h1>
         </div>    
         <div className="HappinessHeart" id="HappinessHeart2"></div>
       </header>

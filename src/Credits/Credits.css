@@ -196,17 +196,38 @@ h6 {
 }
 /*tablet*/
 @media (min-width: 601px) and (max-width: 1024px) {
+  #credits__title {
+  font-size: 80px;
+ }
+
+ .HappinessHeart {
+  width: 80px;
+  height: 80px;
+ }
+ h2 {
+  font-size: 48px;
+ }
+
+ h3 {
+  font-size: 32px;
+ }
+
+ h4 {
+  font-size: 48px;
+ }
+
+ h7 {
+  font-size: 40px;
+ }
 
   .media {
     background-color: rgb(238, 255, 0);
   }
-  p {
-    font-size: 24px;
-  }
 
-  h5 {
-    font-size: 24px;
-  }
+  .credits--persons {
+    background-size: cover;
+  } 
+ 
 }
 
 /*monitor*/
@@ -219,12 +240,6 @@ h6 {
 
 /*super monitor*/
 @media (min-width: 1920px) {
-  h1 {
-    font-size: 144px;
-  }
-  body {
-    padding: 5%;
-  }
 
   .media {
     background-color: rgb(0, 38, 255);
