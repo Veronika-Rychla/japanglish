@@ -1,7 +1,19 @@
 .GameOver__selected{
   font-family: 'Press Start 2P', cursive;
   color: rgb(247, 244, 247);
+  text-align: center;
+  font-size: 24px;
+  position: relative;
+  animation-name: shinkansen;
+  animation-duration: 1s;  
+  animation-fill-mode: forwards;
 }
+
+@keyframes shinkansen {
+  from {left: -500px;}
+  to {left: 0px;}
+}
+
 
 body {
   margin: 0;
@@ -31,3 +43,40 @@ body {
     margin: 24px;
 
   }
+
+  
+
+/*tablet*/
+@media (min-width: 601px) and (max-width: 1024px) {
+
+.Game__toolbar-restart {
+ padding: 8px;
+ height: 64px;
+ width: 64px;
+}
+}
+/*monitor*/
+@media (min-width: 1025px) and (max-width: 1920px) {
+
+ .GameOver__selected {
+  font-size: 32px;
+ }
+ .Game__toolbar-restart {
+  padding: 8px;
+  height: 80px;
+  width: 80px;
+}
+}
+/*super monitor*/
+@media (min-width: 1920px)  {
+  .GameOver__selected {
+    font-size: 40px;
+   }
+
+  .Game__toolbar-restart {
+   padding: 24px;
+   height: 96px;
+   width: 96px;
+ }
+
+}
