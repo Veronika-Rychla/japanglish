@@ -43,6 +43,9 @@ img:hover {
  
 }
 
+.Conversation {
+  box-shadow: 0 0 5px #fff, 0 0 10px #3f349399, 0 0 20px #3f349399, 0 0 40px #2c132c, 0 0 80px #591978, 0 0 90px #992fc5, 0 0 100px #dcb6ea, 0 0 150px #1204b2;
+}
 .Game__toolbar-restart {
   cursor: pointer;
   background-color: #2a1b3d;
@@ -89,12 +92,12 @@ img {
 }
 
   .Conversation__text {
-    font-size: 24px; }
+    font-size: 32px; }
  
   .Conversation {
   border: 16px solid #2a1b3d;
   border-radius: 120px;
-  box-shadow: 0 0 5px #fff, 0 0 10px #3f349399, 0 0 20px #3f349399, 0 0 40px #2c132c, 0 0 80px #591978, 0 0 90px #992fc5, 0 0 100px #dcb6ea, 0 0 150px #1204b2;}
+}
 
   .Game__toolbar-restart {
     padding: 8px;
@@ -105,6 +108,13 @@ img {
   .HappinessMetre {
     height: 64px;
     width: 64px;
+}
+.Conversation__button-arrow {
+  position: fixed;
+  bottom: 24%;
+  right: 8px;
+  width: 88px;
+height: 88px;
 }
 }
 
