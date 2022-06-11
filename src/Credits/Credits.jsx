@@ -17,8 +17,7 @@ export const Credits = () => {
         <div className="Conversation .Conversation__text" id="credits--bubble">
           <h3> Thanks for playing!</h3>
           <p className='credit__paragraf'>
-            This game was originally created as our final course project for
-            Digital Academy: Web organized by Czechitas but it gradually became
+            This game was originally created as our final course project for <strong>Digital Academy: Web </strong>organized by <strong>  Czechitas </strong> but it gradually became
             something bigger. We developed our own visual novel game engine
             which we hope to keep developing further.
           </p>
