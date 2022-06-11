@@ -5,14 +5,15 @@ import './Credits.css';
 export const Credits = () => {
   return (
     <>
-      <header className="header">
+      
+      <div className="credits">
+      <div className="header">
         <div className="HappinessHeart" id="HappinessHeart1"></div>
         <div className="header--title">
           <h1 className="title__text" id="credits__title">Credits</h1>
         </div>    
         <div className="HappinessHeart" id="HappinessHeart2"></div>
-      </header>
-      <div className="credits">
+      </div>
         <div className="Conversation .Conversation__text" id="credits--bubble">
           <h3> Thanks for playing!</h3>
           <p>
