@@ -10,7 +10,7 @@ body {
   flex-grow: 1;
 }
 .header {
-  margin: 0%;
+  margin-bottom: 8px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -26,7 +26,7 @@ body {
 .HappinessHeart {
   background-size: cover;
   width: 40px;
-  height: 40px;
+  height: 56px;
 }
 
 #HappinessHeart1 {
@@ -39,7 +39,7 @@ body {
 .credits {
   display: flex;
   flex-direction: column;
-  background-color: #3f3493ba;
+  background-color: #5f3493db;
   padding-bottom: 32px;
   box-shadow:0 0 5px #fff, 0 0 10px #3f349399, 0 0 20px #3f349399, 0 0 40px #2c132c, 0 0 80px #591978, 0 0 90px #992fc5, 0 0 100px #dcb6ea, 0 0 150px #1204b2;
 font-size: 16px;
@@ -84,7 +84,9 @@ h7 {
   align-items: center;
   background-image: url(/public/background/cityNight.jpg);
   animation-name: dayNight;
-  animation-duration: 3s;
+  animation-duration: 8s;
+  animation-iteration-count: 5;
+  animation-direction: alternate-reverse; 
   width: 100%;
   margin-bottom: 8px;
 }
@@ -174,6 +176,7 @@ h7 {
   flex-direction: row;
   width: 100%;
   justify-content: space-evenly;
+  filter: drop-shadow(16px 16px 32px black)
 }
 h6 {
   color: #f6f3f3;
@@ -181,9 +184,11 @@ h6 {
 }
 
 .personal__name {
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff,
-    0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
-  font-size: 16px;
+  font-family: 'VT323', monospace;
+  text-shadow:0 0 5px rgb(11 11 11), 0 0 10px rgb(11 11 11), 0 0 20px #2a1b3d, 0 0 40px #3f0249, 0 0 80px #ff00d9, 0 0 90px #ff00fe, 0 0 100px #0ff, 0 0 150px #0ff;;
+  font-size: 40px;
+  font-weight: lighter;
+  text-transform: uppercase;
 }
 
 /*phone*/
@@ -201,8 +206,9 @@ h6 {
  }
 
  .HappinessHeart {
-  width: 80px;
-  height: 80px;
+  background-size: contain;
+  width: 72px;
+  height: 88px;
  }
  h2 {
   font-size: 48px;
@@ -216,7 +222,7 @@ h6 {
   font-size: 48px;
  }
  h6 {
-  font-size: 32px;
+  font-size: 40px;
  }
 
  h7 {
@@ -229,7 +235,7 @@ h6 {
  }
 
  #credits--bubble {
-   flex-basis: 30%;
+   padding: 40px;
  }
   .media {
     background-color: rgb(238, 255, 0);
@@ -238,6 +244,16 @@ h6 {
   .credits--persons {
     background-size: cover;
   } 
+  .credits--persons {
+    margin: 16px 0 16px 0;
+  }
+
+  .contact--title {
+    margin-bottom: 16px;
+  }
+  .credit__paragraf {
+    font-size: 32px;
+  }
  
 }
 
