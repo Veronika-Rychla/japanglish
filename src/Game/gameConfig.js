@@ -138,7 +138,7 @@ export const gameConfig = {
           ],
         },
         {
-          text: 'She takes Charlie’s mobile phone and calls for a taxi.',
+          text: "She takes Charlie's mobile phone and calls for a taxi.",
           type: 'dialogue',
           character: 'Hanako',
           mood: 'hanako_happy.png',
@@ -192,7 +192,7 @@ export const gameConfig = {
           ],
         },
         {
-          text: 'This is your room. Feel free to use the ラジオ and テーブル. Raito is ライト.',
+          text: 'This is your room. Feel free to use the ラジオ and テーブル. ライト is here.',
           type: 'dialogue',
           character: 'Hanako',
           mood: 'hanako_neutral.png',
