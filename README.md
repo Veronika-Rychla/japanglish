@@ -48,14 +48,18 @@ This component takes props character (their name) and mood (the image which expr
 
 ### Conversation.jsx
 
-We need to take several props into consideration: text, type, options and dispatch. When the type of the text is quiz, the program has to evaluate whether the player answered right or wrong and link it to the happiness metre.  
+We need to take several props into consideration: text, type, options and dispatch. When the type of the text is quiz, the program has to evaluate whether the player answered right or wrong and link it to the happiness metre.
+
 While the right answer dispatches the action increasing happiness and the wrong decreases it, they both move the story to the next conversation so that the player can’t keep guessing until they get it right.
+
 The return part takes care of how the dialogue window is supposed to be structured and establishes handleAnswerClick function in case the dialogue shows test options. Use the method map for that. The floating green button in normal dialogues moves the player to the next conversation using dispatch.
 
 ### UseGameState.jsx
 
 Set the starting point in the const initialState. In our game, the player starts at the train station with the initial happiness metre set to 50%. The game engine utilises useReducer which is an alternative to useState when you need to express conditions for complicated structures, especially when states depend on one another without the need for callbacks.
+
 The parameters are state and action and we made use of switch/case statement conditional rendering in order to move between locations and to progress the dialogues. The constant nextLocation links to getConversation.js component and calls for the state of the current location and conversation index within that location.
+
 Inject the navigate function so that the gameReducer can cause effects such as navigation to the credits page after the very last conversation and game-over page should the player run out of hearts. Then set up how the loss of heart is initialised. Happiness metre increases by 25% when the answer is right and decreased by 25% if the answer is wrong.
 
 ### Game.jsx
