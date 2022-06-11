@@ -62,6 +62,7 @@ h3 {
   color: #3f0249;
   font-size: 16px;
   text-shadow: 1px 1px 2px #f6f3f3, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
+  padding-bottom: 8px;
 }
 
 h4 {
@@ -114,10 +115,11 @@ h7 {
   gap: 16px;
   align-items: center;
 }
-.Credits {
-  color: violet;
-}
 
+#credits--bubble {
+    margin-bottom: 0%;
+    text-align: center;
+}
 .facebook,
 .linkedin,
 .github {
@@ -262,8 +264,55 @@ h6 {
   .media {
     background-color: rgb(13, 255, 0);
 }
+.header {
+  justify-content: space-evenly;
+}
+.title__text {
+  font-size: 96px;
+    margin-bottom: 24px;
+}
+.HappinessHeart {
+  background-size: cover;
+  width: 80px;
+  height: 104px;
+  background-repeat: no-repeat}
+
+  #credits--bubble {
+    margin: 24px 112px;
+  }
+  .credit__paragraf {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 56px;
+   }
+  
+   h3 {
+    font-size: 40px;
+   }
+  
+   h4 {
+    font-size: 56px;
+   }
+   h6 {
+    font-size: 56px;
+   }
+  
+   h7 {
+    font-size: 48px;
+   }
+.credits--persons {
+background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
+.facebook, .linkedin, .github {
+  width: 88px;
+  height: 88px;
+}
+
+}
 
 /*super monitor*/
 @media (min-width: 1920px) {
@@ -271,5 +320,51 @@ h6 {
   .media {
     background-color: rgb(0, 38, 255);
   }
-
+  .header {
+    justify-content: space-evenly;
+  }
+  .title__text {
+    font-size: 96px;
+      margin-bottom: 24px;
+  }
+  .HappinessHeart {
+    background-size: cover;
+    width: 80px;
+    height: 104px;
+    background-repeat: no-repeat}
+  
+    #credits--bubble {
+      margin: 24px 112px;
+    }
+    .credit__paragraf {
+      font-size: 32px;
+    }
+    h2 {
+      font-size: 56px;
+     }
+    
+     h3 {
+      font-size: 40px;
+     }
+    
+     h4 {
+      font-size: 56px;
+     }
+     h6 {
+      font-size: 56px;
+     }
+    
+     h7 {
+      font-size: 48px;
+     }
+  .credits--persons {
+  background-size: 100%;
+      background-position: top;
+      background-repeat: no-repeat;
+  }
+  
+  .facebook, .linkedin, .github {
+    width: 88px;
+    height: 88px;
+  }
 }
