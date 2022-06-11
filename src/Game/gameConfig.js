@@ -58,7 +58,13 @@ export const gameConfig = {
           type: "description",
         },
         {
-          text: "Damn, I should have taken that Japanese language preparatory course when they were offering it. All I know are a few generic phrases from anime I've watched.",
+          text: "Damn, I should have taken that Japanese language preparatory course when they were offering it.",
+          type: "dialogue",
+          character: "Charlie",
+          mood: "charlie_sad.png",
+        },
+        {
+          text: " All I know are a few generic phrases from anime I've watched.",
           type: "dialogue",
           character: "Charlie",
           mood: "charlie_sad.png",
@@ -284,7 +290,13 @@ export const gameConfig = {
           mood: "hanako_happy.png",
         },
         {
-          text: "Ok, the names are differently pronounced but I can see the brands at least. I think you can never go wrong with McDonalds when unsure in a foreign country.",
+          text: "Ok, the names are differently pronounced but I can see the brands at least.",
+          type: "monologue",
+          character: "Charlie",
+          mood: "charlie_neutral.png",
+        },
+        {
+          text: "I think you can never go wrong with McDonalds when unsure in a foreign country.",
           type: "monologue",
           character: "Charlie",
           mood: "charlie_neutral.png",
