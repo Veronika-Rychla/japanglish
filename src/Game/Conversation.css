@@ -90,4 +90,5 @@ ul {
      list-style-type: none;
      list-style-position: inside;
      width: 80%;
+     flex-grow: 1;
 }

@@ -9,11 +9,15 @@ body {
   flex-direction: column;
   flex-grow: 1;
 }
+a {
+  margin: 0%;
+}
 .header {
   margin-bottom: 8px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: flex-end;
   padding-top: 24px;
 }
 .title__text {
@@ -268,38 +272,39 @@ h6 {
   justify-content: space-evenly;
 }
 .title__text {
-  font-size: 96px;
+  font-size: 48px;
     margin-bottom: 24px;
 }
 .HappinessHeart {
   background-size: cover;
-  width: 80px;
-  height: 104px;
+  width: 56px;
+  height: 88px;
   background-repeat: no-repeat}
 
   #credits--bubble {
-    margin: 24px 112px;
+    margin: 8px 112px;
+    padding: 24px;
   }
   .credit__paragraf {
-    font-size: 32px;
+    font-size: 16px;
   }
   h2 {
-    font-size: 56px;
+    font-size: 32px;
    }
   
    h3 {
-    font-size: 40px;
+    font-size: 24px;
    }
   
    h4 {
-    font-size: 56px;
+    font-size: 32px;
    }
    h6 {
-    font-size: 56px;
+    font-size: 32px;
    }
   
    h7 {
-    font-size: 48px;
+    font-size: 24px;
    }
 .credits--persons {
 background-size: 100%;
@@ -308,8 +313,8 @@ background-size: 100%;
 }
 
 .facebook, .linkedin, .github {
-  width: 88px;
-  height: 88px;
+  width: 48px;
+  height: 48px;
 }
 
 }

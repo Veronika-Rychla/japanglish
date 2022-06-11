@@ -137,8 +137,8 @@ img {
      object-fit: contain;
    }
    .HappinessMetre {
-     height: 64px;
-     width: 64px;
+     height: 88px;
+     width: 88px;
  }
  .Conversation__text {
    font-size: 24px;
@@ -156,10 +156,10 @@ img {
 
 
 .Conversation__button-arrow {
-   right: 32px;
-   bottom: 88px;
-   width: 104px;
-   height: 104px;
+   right: 16px;
+   bottom: 112px;
+   width: 96px;
+   height: 96px;
    border: 8px rgb(11, 11, 11) solid;
 }
 
@@ -217,7 +217,7 @@ li {
 
 .Conversation__button-arrow {
     right: 48px;
-    bottom: 128px;
+    bottom: 96px;
     width: 160px;
     height: 160px;
     border: 16px rgb(11, 11, 11) solid;
@@ -233,7 +233,7 @@ li {
 }
 
 .HappinessMetre {
-  height: 64px;
-  width: 64px;
+  height: 96px;
+  width: 96px;
 }
 }

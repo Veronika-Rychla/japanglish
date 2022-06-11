@@ -65,7 +65,7 @@ export const Intro = () => {
               </div>
             </div>
             <div className="nav--field">
-              <div className="avatar2 nav--flex" data-tooltip="guguru">
+              <div className="avatar2 nav--flex" data-tooltip="Not used in the game">
                 <p>
                   <strong>ググル</strong>
                 </p>
