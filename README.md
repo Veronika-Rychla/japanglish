@@ -16,7 +16,7 @@ Create a navigation tree out of four pages: Intro, Game, GameOver and Credits.
 
 ### Intro.jsx
 
-Intro is made of what looks like three separate pages (first page, rules, introducing the characters) but it’s actually just one page with three <div> that are being displayed depending on conditions within loadNext constant.
+Intro is made of what looks like three separate pages (first page, rules, introducing the characters) but it’s actually just one page with three divs that are being displayed depending on conditions within loadNext constant.
 
 ### GameOver.jsx and Credits.jsx
 
