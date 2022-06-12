@@ -8,7 +8,7 @@ export const gameConfig = {
     {
       name: 'Charlie',
       gender: 'male',
-      nationality: 'American',
+      nationality: 'Canadian',
     },
   ],
   locations: {
