@@ -79,10 +79,12 @@ img {
      .media {
           background-color: rgb(238, 255, 0)
      }
-    
+     .Conversation__quiz-option {
+    border: 2px solid #2a1b3d;
+     }
      
      li {
-      font-size: 32px;
+      font-size: 16px;
     }
     .Game__location {
       font-size: 64px;}
@@ -92,10 +94,10 @@ img {
 }
 
   .Conversation__text {
-    font-size: 32px; }
+    font-size: 24px; }
  
   .Conversation {
-  border: 16px solid #2a1b3d;
+  border: 8px solid #2a1b3d;
   border-radius: 120px;
 }
 
