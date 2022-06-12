@@ -221,7 +221,7 @@ li {
 .Conversation {
   padding: 48px;
   margin: 0 38px 38px 38px;
-  border: 24px solid #2a1b3d;
+  border: 16px solid #2a1b3d;
 
   border-radius: 200px;
 }
@@ -239,7 +239,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  gap:8px;
+  gap:2px;
 }
 
 .Conversation__quiz-option {
@@ -251,8 +251,8 @@ li {
   margin-bottom: 4px;
 }
 li {
-  font-size: 48px;
-  padding: 8px;
+  font-size: 32px;
+  
 }
 .Game__toolbar-restart {
   padding: 8px;
