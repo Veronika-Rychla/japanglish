@@ -123,7 +123,7 @@ h7 {
 }
 
 #credits--bubble {
-    margin-bottom: 0%;
+  
     text-align: center;
 }
 .facebook,
@@ -447,13 +447,13 @@ animation-fill-mode: forwards; }
     justify-content: space-evenly;
   }
   .title__text {
-    font-size: 64px;
+    font-size: 88px;
       margin-bottom: 24px;
   }
   .HappinessHeart {
     background-size: cover;
-    width: 120px;
-    height: 152px;
+    width: 152px;
+    height: 192px;
     background-repeat: no-repeat}
   
     #credits--bubble {
@@ -505,9 +505,9 @@ animation-fill-mode: forwards; }
   
   @keyframes runHanako {
     0% {left: 0px;}
-    20% {left: 240px; background-image: url(/public/chibi/Hanako_excited.png)}
-    40% {left: 240px; background-image: url(/public/chibi/Hanako_angry.png);}
-    100% { left:240px;background-image: url(/public/chibi/Hanako_surprised.png); }
+    20% {left: 600px; background-image: url(/public/chibi/Hanako_excited.png)}
+    40% {left: 600px; background-image: url(/public/chibi/Hanako_angry.png);}
+    100% { left:600px;background-image: url(/public/chibi/Hanako_surprised.png); }
    
   }
   
@@ -523,9 +523,9 @@ animation-fill-mode: forwards; }
   
   @keyframes runCharlie {
     0% {right: 0px;}
-    20% {right: 240px; background-image: url(/public/chibi/Charlie_excited.png)}
-    40% {right: 240px; background-image: url(/public/chibi/Charlie_angry.png);}
-    100% { right:240px;background-image: url(/public/chibi/Charlie_surprised.png);}
+    20% {right: 600px; background-image: url(/public/chibi/Charlie_excited.png)}
+    40% {right: 600px; background-image: url(/public/chibi/Charlie_angry.png);}
+    100% { right:600px;background-image: url(/public/chibi/Charlie_surprised.png);}
    
   }
   

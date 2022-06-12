@@ -152,7 +152,7 @@ height: 88px;
      width: 88px;
  }
  .Conversation__text {
-   font-size: 24px;
+   font-size: 32px;
    text-shadow: 8px 8px 16px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
 }
 
@@ -160,8 +160,7 @@ height: 88px;
  padding: 40px;
  margin: 0 38px 38px 38px;
  border: 16px solid #2a1b3d;
- box-shadow: 24px 24px 16px #c009585e;
- border-radius: 148px;
+ border-radius: 200px;
  flex-basis: 30%;
 }
 
@@ -213,7 +212,7 @@ li {
       width: 96px;
   }
   .Conversation__text {
-    font-size: 36px;
+    font-size: 48px;
     text-shadow: 8px 8px 16px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
 }
 
@@ -221,8 +220,8 @@ li {
   padding: 48px;
   margin: 0 38px 38px 38px;
   border: 24px solid #2a1b3d;
-  box-shadow: 24px 24px 16px #c009585e;
-  border-radius: 148px;
+
+  border-radius: 200px;
 }
 
 
@@ -234,8 +233,24 @@ li {
     border: 16px rgb(11, 11, 11) solid;
 }
 
+.Conversation__quiz {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap:8px;
+}
+
+.Conversation__quiz-option {
+  background: linear-gradient(30deg,#2a1b3dd8, #f8f3f4);
+  cursor: pointer;
+  border: 8px solid #2a1b3d;
+  border-radius: 80px;
+  text-shadow: 8px 8px 16px #edecec, 0 0 1em #edecec, 0 0 0.2em #f4eef45e;
+  margin-bottom: 4px;
+}
 li {
-  font-size: 36px;
+  font-size: 48px;
+  padding: 8px;
 }
 .Game__toolbar-restart {
   padding: 8px;
@@ -244,7 +259,7 @@ li {
 }
 
 .HappinessMetre {
-  height: 96px;
-  width: 96px;
+  height: 144px;
+  width: 144px;
 }
 }
