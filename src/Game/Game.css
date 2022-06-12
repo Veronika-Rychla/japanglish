@@ -191,7 +191,7 @@ li {
      }
      .Game__location {
        flex-basis: 10%;
-       font-size: 124px;
+       font-size: 112px;
        text-shadow: 8px 8px 24px #000000, 0 0 1em #3f0249, 0 0 0.2em #af04b25e;
      }
      .Game__character {
@@ -214,7 +214,7 @@ li {
       width: 96px;
   }
   .Conversation__text {
-    font-size: 56px;
+    font-size: 48px;
     text-shadow: 8px 8px 16px #edecec, 0 0 1em #792f79, 0 0 0.2em #f4eef45e;
 }
 
@@ -228,8 +228,8 @@ li {
 
 
 .Conversation__button-arrow {
-    right: 48px;
-    bottom: 96px;
+  right: 24px;
+  bottom: 24px;
     width: 160px;
     height: 160px;
     border: 16px rgb(11, 11, 11) solid;
@@ -251,7 +251,7 @@ li {
   margin-bottom: 4px;
 }
 li {
-  font-size: 32px;
+  font-size: 24px;
   
 }
 .Game__toolbar-restart {
